@@ -22,7 +22,7 @@ export default function Home() {
                 Edward Tremblay
               </h1>
               <p className="text-lg leading-relaxed text-neutral-700">
-              I'm a technical product leader building software
+              I&apos;m a technical product leader building software
               projects using modern AI-assisted workflows.
               </p>
               <p className="mt-4 text-sm text-neutral-500">
@@ -110,7 +110,7 @@ export default function Home() {
                 <li>
                   <h3 className="text-lg font-medium">Vibey Cat</h3>
                   <p className="mt-2 text-neutral-700">
-                    Game where an evil eagle is trying to harm a little cat. The little cat's pal comes trys to rescue the little cat. This was my first attempt at vibe coding an app.
+                    Game where an evil eagle is trying to harm a little cat. The little cat&apos;s pal comes trys to rescue the little cat. This was my first attempt at vibe coding an app.
                   </p>
                   <a
                     href="https://vibeycat.vercel.app/"
