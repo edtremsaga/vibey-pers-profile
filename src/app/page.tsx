@@ -139,6 +139,9 @@ export default function Home() {
 
               <ul className="space-y-4 text-neutral-700">
                 <li>
+                  <span className="text-neutral-500">Jan 2026</span> — Developed &amp; tested producer search for liner notez
+                </li>
+                <li>
                   <span className="text-neutral-500">Jan 2026</span> — Fixed mobile
                   lightbox behavior for album art galleries.
                 </li>
