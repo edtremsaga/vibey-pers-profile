@@ -12,6 +12,14 @@ export default function Home() {
     <p className="mt-1 text-sm text-neutral-500">
       Building small software products with AI tooling as my partner.
     </p>
+    <p className="mt-4 text-sm">
+      <a
+        href="/learnings"
+        className="text-neutral-600 underline underline-offset-4 hover:text-neutral-900"
+      >
+        Learnings
+      </a>
+    </p>
   </div>
 </aside>
 
