@@ -12,6 +12,9 @@ export default function Home() {
     <p className="mt-1 text-sm text-neutral-500">
       Building small software products with AI tooling as my partner.
     </p>
+    <p className="mt-4 text-sm text-neutral-500 leading-relaxed">
+      After decades in product and engineering leadership, I now build small AI-assisted products and help teams make clearer, lower-risk product decisions under real-world constraints.
+    </p>
     <p className="mt-4 text-sm">
       <a
         href="/learnings"
@@ -30,8 +33,7 @@ export default function Home() {
                 Edward Tremblay
               </h1>
               <p className="text-lg leading-relaxed text-neutral-700">
-              I&apos;m a technical product leader building software
-              projects using modern AI-assisted workflows.
+              I&apos;m a technical product leader who builds and ships software projects using modern AI-assisted workflows.
               </p>
               <p className="mt-4 text-sm text-neutral-500">
   Currently focused on music tools and metadata-driven projects.
