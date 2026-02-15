@@ -169,6 +169,9 @@ export default function Home() {
 
               <ul className="space-y-4 text-neutral-700">
                 <li>
+                  <span className="text-neutral-500">Feb 2026</span> — Medicare Decision Tools — Shipped a narrow, rules-based web app clarifying Medicare Part B and Part D enrollment timing. Focused on translating CMS guidance into structured logic and a concise, printable outcome.
+                </li>
+                <li>
                   <span className="text-neutral-500">Jan 2026</span> — Developed &amp; tested producer search for liner notez
                 </li>
                 <li>
