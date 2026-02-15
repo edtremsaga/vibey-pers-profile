@@ -82,6 +82,26 @@ export default function Home() {
                 </li>
 
                 <li>
+                  <h3 className="text-lg font-medium">Medicare Decision Tools</h3>
+                  <p className="mt-2 text-neutral-700">
+                    A high-clarity decision tool focused on Medicare Part B and Part D enrollment timing.
+                  </p>
+                  <p className="mt-2 text-neutral-700">
+                    Rather than creating another broad information site, I built a narrow, rules-based web app that translates complex CMS guidance into a clear next step. The experience is intentionally simple — one decision at a time — with a concise, printable summary as the outcome.
+                  </p>
+                  <p className="mt-2 text-neutral-700">
+                    This build reflects my broader interest in using AI-assisted development to reduce complexity in real-world, high-stakes decisions.
+                  </p>
+                  <a
+                    href="https://medicare-delay-tool.vercel.app/"
+                    className="mt-3 inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
+                  >
+                    <span className="underline underline-offset-4">Visit</span>
+                    <span aria-hidden>↗</span>
+                  </a>
+                </li>
+
+                <li>
                   <h3 className="text-lg font-medium">Tickets Scanner</h3>
                   <p className="mt-2 text-neutral-700">
                     Tickets Scanner is an exploratory proof of concept project to build an evaluator agent that scans ticket prices across ticket brokers. Brokers include Ticketmaster, SeatGeek and StubHub.  Curious about agent design, data sourcing, and feasibility.
