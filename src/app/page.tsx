@@ -106,13 +106,6 @@ export default function Home() {
                   <p className="mt-2 text-neutral-700">
                     Tickets Scanner is an exploratory proof of concept project to build an evaluator agent that scans ticket prices across ticket brokers. Brokers include Ticketmaster, SeatGeek and StubHub.  Curious about agent design, data sourcing, and feasibility.
                   </p>
-                  <a
-                    href="#"
-                    className="mt-3 inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
-                  >
-                    <span className="underline underline-offset-4">Visit</span>
-                    <span aria-hidden>↗</span>
-                  </a>
                 </li>
               </ul>
             </section>
