@@ -35,9 +35,6 @@ export default function Learnings() {
               <h1 className="mb-4 text-4xl font-semibold tracking-tight">
                 Learnings from Building Apps Using AI Tooling
               </h1>
-              <p className="text-sm text-neutral-500 italic">
-                (aka: my adventures in vibe coding)
-              </p>
             </header>
 
             <article className="space-y-10">
