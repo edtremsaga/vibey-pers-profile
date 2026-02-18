@@ -7,13 +7,13 @@ export default function Home() {
           <aside className="md:pt-1">
   <div className="border-l  border-neutral-200 pl-4">
     <p className="text-base font-semibold tracking-wide text-neutral-700">
-      VIBE CODING
+      AI-AUGMENTED PRODUCT BUILDING
     </p>
     <p className="mt-1 text-sm text-neutral-500">
-      Building small software products with AI tooling as my partner.
+      Designing focused software systems with AI as a structured development partner.
     </p>
     <p className="mt-4 text-sm text-neutral-500 leading-relaxed">
-      After decades in product and engineering leadership, I now build small AI-assisted products and help teams make clearer, lower-risk product decisions under real-world constraints.
+      After decades in product and engineering leadership, I now build focused AI-augmented systems and help teams make clearer, lower-risk product decisions under real-world constraints.
     </p>
     <p className="mt-4 text-sm">
       <a
