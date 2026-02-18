@@ -33,7 +33,7 @@ export default function Home() {
                 Edward Tremblay
               </h1>
               <p className="text-lg leading-relaxed text-neutral-700">
-              I&apos;m a technical product leader who builds and ships software projects using modern AI-assisted workflows.
+              I&apos;m a product leader who designs and ships focused software systems using AI-augmented workflows.
               </p>
               <p className="mt-4 text-sm text-neutral-500">
   Currently focused on music tools and metadata-driven projects.
