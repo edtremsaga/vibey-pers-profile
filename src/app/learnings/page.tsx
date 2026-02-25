@@ -43,7 +43,7 @@ export default function Learnings() {
                   1. Experiment with AI dev environments to find what works best for you.
                 </h2>
                 <p className="text-base leading-relaxed text-neutral-700">
-                  I tried Google AI Studio, Lovable, Replit, and Cursor. I ultimately decided that Cursor was the best AI dev environment for hands-on development, ChatGPT Pro worked best as my product management and systems-thinking tool, GitHub for source control, and Vercel for app hosting and analytics. Assigning clear roles to each tool made the overall workflow much more effective.
+                  I tried Google AI Studio, Lovable, Replit, and Cursor. I ultimately decided that Cursor & Codex were the best AI dev environments for hands-on development, ChatGPT Pro worked best as my product management and systems-thinking tool, GitHub for source control, and Vercel for app hosting and analytics. Assigning clear roles to each tool made the overall workflow much more effective.
                 </p>
               </section>
 
