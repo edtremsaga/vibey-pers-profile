@@ -33,7 +33,7 @@ export default function Home() {
                 Edward Tremblay
               </h1>
               <p className="text-lg leading-relaxed text-neutral-700">
-              I&apos;m a product leader who designs and ships focused software systems using AI-augmented workflows.
+              Exploring AI-augmented product development by designing and shipping software with modern AI coding tools.
               </p>
               <p className="mt-4 text-sm text-neutral-500">
   Currently focused on music tools and metadata-driven projects.
@@ -42,7 +42,7 @@ export default function Home() {
                 Most projects here are active and evolving through small, frequent iterations.
               </p>
               <p className="mt-4 text-sm text-neutral-500">
-                Open to collaborating with designers, engineers, or product thinkers who enjoy building focused software projects.
+                
               </p>
             </header>
 
@@ -74,6 +74,23 @@ export default function Home() {
                   </p>
                   <a
                     href="https://vibey-looper.vercel.app/"
+                    className="mt-3 inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
+                  >
+                    <span className="underline underline-offset-4">Visit</span>
+                    <span aria-hidden>↗</span>
+                  </a>
+                </li>
+
+                <li>
+                  <h3 className="text-lg font-medium">Set List Player</h3>
+                  <p className="mt-2 text-neutral-700">
+                    A lightweight tool for building and playing YouTube-based set lists for music practice and rehearsal. Designed to make it easy to organize songs, rehearse transitions, and jam along with a prepared set.
+                  </p>
+                  <p className="mt-2 text-neutral-700">
+                    Exploring simple musician workflows, mobile-friendly playback, and fast set-list iteration.
+                  </p>
+                  <a
+                    href="https://vibey-set-list-player.vercel.app/"
                     className="mt-3 inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
                   >
                     <span className="underline underline-offset-4">Visit</span>
@@ -161,6 +178,9 @@ export default function Home() {
               </p>
 
               <ul className="space-y-4 text-neutral-700">
+                <li>
+                  <span className="text-neutral-500">March 2026</span> — Music Looper Set List — First Working Version — Built a lightweight set-list player designed for music practice and rehearsal. The tool allows musicians to paste YouTube links, build a set list, and play through songs sequentially to rehearse transitions or jam along with a prepared set. The design goal was simplicity and fast iteration. Rather than building a complex music practice platform, the focus was on the core workflow: quickly assembling a set list and playing it back without friction. I also use the tool myself to rehearse bass parts and practice transitions between songs in a set. The project served as another exploration of AI-augmented product development using modern AI coding tools. Much of the implementation involved iterating quickly on small UI and interaction changes while keeping the codebase simple. Future areas to explore include improving mobile UX, refining set-list editing, and experimenting with additional musician-focused practice workflows.
+                </li>
                 <li>
                   <span className="text-neutral-500">Feb 2026</span> — Medicare Decision Tools — Shipped a narrow, rules-based web app clarifying Medicare Part B and Part D enrollment timing. Focused on translating CMS guidance into structured logic and a concise, printable outcome.
                 </li>
