@@ -180,12 +180,21 @@ export default function Home() {
               <ul className="space-y-4 text-neutral-700">
                 <li>
                   <span className="text-neutral-500">March 2026</span> — Music Looper Set List — First Working Version — Built a lightweight set-list player for music practice and rehearsal. The tool lets musicians paste YouTube links, assemble a set list, and play songs sequentially to rehearse transitions or jam along with a prepared set. The focus was on a simple workflow: quickly assembling and playing a set list without friction.
+                  <div className="mt-1 text-sm text-neutral-500">
+                    Links: <a href="https://vibey-set-list-player.vercel.app/" className="hover:underline">Demo</a> · <a href="https://github.com/edtremsaga/vibey-set-list-2" className="hover:underline">GitHub</a>
+                  </div>
                 </li>
                 <li>
                   <span className="text-neutral-500">Feb 2026</span> — Medicare Decision Tools — Shipped a narrow, rules-based web app clarifying Medicare Part B and Part D enrollment timing. Focused on translating CMS guidance into structured logic and a concise, printable outcome.
+                  <div className="mt-1 text-sm text-neutral-500">
+                    Links: <a href="https://medicare-delay-tool.vercel.app/" className="hover:underline">Demo</a> · <a href="https://github.com/edtremsaga/medicare-delay-tool" className="hover:underline">GitHub</a>
+                  </div>
                 </li>
                 <li>
                   <span className="text-neutral-500">Jan 2026</span> — Developed &amp; tested producer search for liner notez
+                  <div className="mt-1 text-sm text-neutral-500">
+                    Links: <a href="https://vibey-liner-notez2.vercel.app/" className="hover:underline">Demo</a> · <a href="https://github.com/edtremsaga/vibey-liner-notez" className="hover:underline">GitHub</a>
+                  </div>
                 </li>
                 <li>
                   <span className="text-neutral-500">Jan 2026</span> — Fixed mobile
