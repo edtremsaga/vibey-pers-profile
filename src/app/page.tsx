@@ -191,6 +191,9 @@ export default function Home() {
                   </div>
                 </li>
                 <li>
+                  <span className="text-neutral-500">Mar 2026</span> — Liner Notez: built an album-first music metadata prototype powered by MusicBrainz, exploring liner-note style album storytelling, metadata enrichment, and UX for hardcore music fans.
+                </li>
+                <li>
                   <span className="text-neutral-500">Feb 2026</span> — Medicare Decision Tools — Shipped a narrow, rules-based web app clarifying Medicare Part B and Part D enrollment timing. Focused on translating CMS guidance into structured logic and a concise, printable outcome.
                   <div className="mt-1 text-sm text-neutral-500">
                     Links: <a href="https://medicare-delay-tool.vercel.app/" className="hover:underline">Demo</a> · <a href="https://github.com/edtremsaga/medicare-delay-tool" className="hover:underline">GitHub</a>
@@ -207,8 +210,7 @@ export default function Home() {
                   lightbox behavior for album art galleries.
                 </li>
                 <li>
-                  <span className="text-neutral-500">Dec 2025</span> — Initial public
-                  deployment.
+                  <span className="text-neutral-500">Dec 2025</span> — Launched this profile site as a public home for my AI-assisted app prototypes and build notes.
                 </li>
               </ul>
             </section>
