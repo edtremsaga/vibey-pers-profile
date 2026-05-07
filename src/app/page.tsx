@@ -68,6 +68,20 @@ export default function Home() {
                 </li>
 
                 <li>
+                  <h3 className="text-lg font-medium">Yard Plant Inventory</h3>
+                  <p className="mt-2 text-neutral-700">
+                    Mobile-first plant inventory prototype for documenting yard plants with iPhone camera capture, local-only IndexedDB storage, image previews, and a simple saved-plant grid. Built as a small, practical local-first app for maintaining a visual record of plants around the yard.
+                  </p>
+                  <a
+                    href="https://github.com/edtremsaga/vibey-yard-app"
+                    className="mt-3 inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
+                  >
+                    <span className="underline underline-offset-4">GitHub</span>
+                    <span aria-hidden>↗</span>
+                  </a>
+                </li>
+
+                <li>
                   <h3 className="text-lg font-medium">Music Looper</h3>
                   <p className="mt-2 text-neutral-700">
                     A musicians practice tool for looping sections of YouTube videos. I use the app daily as part of my bass practice routine. Interested in improving mobile UX, practice workflows, and musician feedback loops.
@@ -192,6 +206,9 @@ export default function Home() {
                 </li>
                 <li>
                   <span className="text-neutral-500">Mar 2026</span> — Liner Notez: built an album-first music metadata prototype powered by MusicBrainz, exploring liner-note style album storytelling, metadata enrichment, and UX for hardcore music fans.
+                </li>
+                <li>
+                  <span className="text-neutral-500">Feb 2026</span> — Yard Plant Inventory: built a mobile-first plant inventory prototype for documenting yard plants with iPhone camera capture, local-only IndexedDB storage, image previews, and a simple saved-plant grid.
                 </li>
                 <li>
                   <span className="text-neutral-500">Feb 2026</span> — Medicare Decision Tools — Shipped a narrow, rules-based web app clarifying Medicare Part B and Part D enrollment timing. Focused on translating CMS guidance into structured logic and a concise, printable outcome.
