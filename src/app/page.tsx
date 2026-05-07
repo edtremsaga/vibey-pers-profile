@@ -179,6 +179,9 @@ export default function Home() {
 
               <ul className="space-y-4 text-neutral-700">
                 <li>
+                  <span className="text-neutral-500">Apr–May 2026</span> — Live Music Scout: built a Seattle/Bellevue live-music event listing prototype with live music club venue parsers ranking logic based upon my taste in music. the app delivers automated nightly/weekly email &amp; slack reports of local music scene events.
+                </li>
+                <li>
                   <span className="text-neutral-500">March 2026</span> — Music Looper Set List — First Working Version — Built a lightweight set-list player for music practice and rehearsal. The tool lets musicians paste YouTube links, assemble a set list, and play songs sequentially to rehearse transitions or jam along with a prepared set. The focus was on a simple workflow: quickly assembling and playing a set list without friction.
                   <div className="mt-1 text-sm text-neutral-500">
                     Links: <a href="https://vibey-set-list-player.vercel.app/" className="hover:underline">Demo</a> · <a href="https://github.com/edtremsaga/vibey-set-list-2" className="hover:underline">GitHub</a>
