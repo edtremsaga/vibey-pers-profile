@@ -1,42 +1,69 @@
-# Vibey Pers Profile
+# Ed Tremblay - Personal Website & Builder Log
 
-A modern web application built with Next.js, TypeScript, and Tailwind CSS.
+## What It Is
 
-## Getting Started
+Ed Tremblay - Personal Website & Builder Log is a personal portfolio site documenting small apps, prototypes, build logs, and lessons learned from hands-on AI-assisted product development.
 
-First, install the dependencies:
+The site is public for portfolio transparency and is meant to show the work behind Ed Tremblay's product experiments, not to serve as a reusable starter template.
+
+## Project Status
+
+This is an active personal website and portfolio project. It may change as new prototypes, experiments, and builder notes are added.
+
+## What The Site Includes
+
+- Small apps and product prototypes
+- Build logs from hands-on AI-assisted development
+- Notes on lessons learned while turning ideas into working software
+- Links to selected demos and related project repositories
+- Portfolio context for product judgment, execution style, and development workflow
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Vercel Analytics
+
+## Local Development
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-Then, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build for production:
 
-You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-## Project Structure
-
+```bash
+npm run build
 ```
-├── src/
-│   └── app/
-│       ├── layout.tsx    # Root layout component
-│       ├── page.tsx      # Home page
-│       └── globals.css   # Global styles
-├── public/               # Static assets
-├── package.json
-├── tsconfig.json
-└── tailwind.config.ts
+
+Run the production build locally:
+
+```bash
+npm run start
 ```
+
+Run linting:
+
+```bash
+npm run lint
+```
+
+## Portfolio Positioning
+
+This site is not just a resume. It is intended to demonstrate product judgment, prototype execution, AI-assisted development workflow, and lessons learned from building real small apps.
+
+The tone and content are meant to be practical and credible: what was built, why it mattered, what worked, what was learned, and how the next iteration could improve.
+
+## License / Reuse
+
+No open-source license is currently provided. This repository is public for portfolio transparency, but the site content, design, written material, and source code are not licensed for reuse.
