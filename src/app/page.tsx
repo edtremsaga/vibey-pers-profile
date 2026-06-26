@@ -95,7 +95,7 @@ export default function Home() {
                 <li>
                   <h3 className="text-lg font-medium">Music Looper</h3>
                   <p className="mt-2 text-neutral-700">
-                    A musicians practice tool for looping sections of YouTube videos. I use the app daily as part of my bass practice routine. Interested in improving mobile UX, practice workflows, and musician feedback loops.
+                    A musicians’ practice tool that makes it easy to loop specific sections of YouTube videos. Built around a real practice need: slowing down, repeating, and working through difficult parts of songs. I use it daily as part of my bass routine.
                   </p>
                   <a
                     href="https://vibey-looper.vercel.app/"
