@@ -55,16 +55,27 @@ export default function Home() {
                 <li>
                   <h3 className="text-lg font-medium">Liner Notez</h3>
                   <p className="mt-2 text-neutral-700">
-                    Album-first exploration of music liner notes and metadata,
-                    powered by MusicBrainz. Exploring metadata enrichment, UX, and album-level storytelling. Ideas welcome.
+                    Album credits and liner notes for iPhone. Liner Notez helps music fans explore album releases, tracklists, credits, musicians, producers, release editions, and source links. Built with MusicBrainz and other public music metadata sources, with on-device My Library and private album notes.
                   </p>
-                  <a
-                    href="https://vibey-liner-notez2.vercel.app/"
-                    className="mt-3 inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
-                  >
-                    <span className="underline underline-offset-4">Visit</span>
-                    <span aria-hidden>↗</span>
-                  </a>
+                  <p className="mt-2 text-neutral-700">
+                    Available now on the Apple App Store.
+                  </p>
+                  <div className="mt-3 flex flex-wrap gap-4 text-sm text-neutral-600">
+                    <a
+                      href="https://apps.apple.com/us/app/liner-notez/id6773810969"
+                      className="inline-flex items-center gap-2 hover:text-neutral-900"
+                    >
+                      <span className="underline underline-offset-4">App Store</span>
+                      <span aria-hidden>↗</span>
+                    </a>
+                    <a
+                      href="https://vibey-liner-notez2.vercel.app/"
+                      className="inline-flex items-center gap-2 hover:text-neutral-900"
+                    >
+                      <span className="underline underline-offset-4">Visit</span>
+                      <span aria-hidden>↗</span>
+                    </a>
+                  </div>
                 </li>
 
                 <li>
@@ -192,6 +203,9 @@ export default function Home() {
               </p>
 
               <ul className="space-y-4 text-neutral-700">
+                <li>
+                  <span className="text-neutral-500">June 2026</span> — Liner Notez for iPhone — Shipped version 1.0 to the Apple App Store. The app helps music fans research album credits, tracklists, release editions, producers, and liner-note-style metadata, with My Library and private on-device album notes.
+                </li>
                 <li>
                   <span className="text-neutral-500">Apr–May 2026</span> — Live Music Scout: built a Seattle/Bellevue live-music event listing app prototype with venue parsers and event-ranking logic based on my taste in music. The app delivers automated nightly/weekly email and Slack reports of local music scene events.
                   <div className="mt-1 text-sm text-neutral-500">
