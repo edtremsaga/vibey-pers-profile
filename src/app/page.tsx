@@ -10,7 +10,7 @@ export default function Home() {
       AI-AUGMENTED PRODUCT BUILDING
     </p>
     <p className="mt-1 text-sm text-neutral-500">
-      Designing and building focused software with AI as a development partner.
+      Designing and building software with AI as a development partner.
     </p>
     <p className="mt-4 text-sm text-neutral-500 leading-relaxed">
       After decades in software product and engineering leadership, I now use AI tools to move ideas from concept to working applications.
