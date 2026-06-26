@@ -121,6 +121,20 @@ export default function Home() {
                 </li>
 
                 <li>
+                  <h3 className="text-lg font-medium">Live Music Scout</h3>
+                  <p className="mt-2 text-neutral-700">
+                    A local live-music discovery tool that tracks venue calendars and surfaces upcoming shows. Built to make it easier to follow Seattle-area venues, spot interesting gigs, and keep a lightweight weekly view of what’s coming up.
+                  </p>
+                  <a
+                    href="https://github.com/edtremsaga/live-music-scout"
+                    className="mt-3 inline-flex items-center gap-2 text-sm text-neutral-600 hover:text-neutral-900"
+                  >
+                    <span className="underline underline-offset-4">GitHub</span>
+                    <span aria-hidden>↗</span>
+                  </a>
+                </li>
+
+                <li>
                   <h3 className="text-lg font-medium">Medicare Decision Tools</h3>
                   <p className="mt-2 text-neutral-700">
                     A high-clarity decision tool focused on Medicare Part B and Part D enrollment timing.
