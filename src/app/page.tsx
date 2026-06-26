@@ -109,10 +109,7 @@ export default function Home() {
                 <li>
                   <h3 className="text-lg font-medium">Set List Player</h3>
                   <p className="mt-2 text-neutral-700">
-                    A lightweight tool for building and playing YouTube-based set lists for music practice and rehearsal. Designed to make it easy to organize songs, rehearse transitions, and jam along with a prepared set.
-                  </p>
-                  <p className="mt-2 text-neutral-700">
-                    Exploring simple musician workflows, mobile-friendly playback, and fast set-list iteration.
+                    A lightweight tool for building and playing through set lists made from YouTube videos for practice and rehearsal. It helps musicians line up songs, rehearse transitions, and move through a set without hunting for individual videos. I use it myself when preparing for gigs.
                   </p>
                   <a
                     href="https://vibey-set-list-player.vercel.app/"
