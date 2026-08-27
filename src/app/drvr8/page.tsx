@@ -38,6 +38,24 @@ export default function Drvr8Page() {
           <p className="mx-auto mt-5 max-w-xl text-xl leading-relaxed text-neutral-700">
             Playing the music of R.E.M., from the early IRS years.
           </p>
+          <nav
+            aria-label="DRVR.8"
+            className="mt-6 text-sm text-neutral-500"
+          >
+            <a
+              href="/drvr8"
+              className="text-neutral-900 underline underline-offset-4"
+            >
+              Home
+            </a>
+            <span className="mx-2 text-neutral-300">·</span>
+            <a
+              href="/drvr8/videos"
+              className="underline underline-offset-4 hover:text-neutral-900"
+            >
+              Videos
+            </a>
+          </nav>
         </header>
 
         <section className="mx-auto mt-8 w-full max-w-md border-y border-neutral-200 py-6 text-center">
