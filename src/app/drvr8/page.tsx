@@ -17,11 +17,8 @@ const songs = [
   "Pretty Persuasion",
   "Begin the Begin",
   "Carnival of Sorts",
-  "Can't Get There from Here",
   "Finest Worksong",
-  "Don't Go Back to Rockville",
   "Gardening at Night",
-  "Harborcoat",
 ];
 
 export default function Drvr8Page() {
