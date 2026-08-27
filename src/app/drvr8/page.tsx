@@ -27,15 +27,8 @@ const songs = [
 export default function Drvr8Page() {
   return (
     <main className="min-h-screen bg-white text-neutral-900">
-      <div className="mx-auto max-w-2xl px-6 py-8 sm:py-12">
-        <a
-          href="/"
-          className="inline-flex min-h-11 items-center text-sm text-neutral-600 underline underline-offset-4 hover:text-neutral-900"
-        >
-          ← Vibey Craft
-        </a>
-
-        <header className="mt-8 text-center sm:mt-10">
+      <div className="mx-auto max-w-2xl px-6 py-8 sm:py-10">
+        <header className="mt-2 text-center sm:mt-4">
           <h1 className="sr-only">DRVR.8</h1>
           <Image
             src="/drvr8/drvr8-logo.png"
@@ -45,12 +38,24 @@ export default function Drvr8Page() {
             priority
             className="mx-auto h-auto w-full max-w-[280px] sm:max-w-[326px]"
           />
-          <p className="mx-auto mt-6 max-w-md text-lg leading-relaxed text-neutral-700">
+          <p className="mx-auto mt-5 max-w-xl text-xl leading-relaxed text-neutral-700">
             Playing the music of R.E.M., from the early IRS years.
           </p>
         </header>
 
-        <section className="mx-auto mt-10 w-full max-w-md">
+        <section className="mx-auto mt-8 w-full max-w-md border-y border-neutral-200 py-6 text-center">
+          <p className="text-sm font-medium tracking-wide text-neutral-500">
+            SEPTEMBER 4, 2026 · 8 PM
+          </p>
+          <p className="mt-3 text-2xl font-semibold tracking-tight text-neutral-900">
+            Slim’s Last Chance
+          </p>
+          <p className="mt-2 text-base leading-relaxed text-neutral-500">
+            Seattle, WA
+          </p>
+        </section>
+
+        <section className="mx-auto mt-8 w-full max-w-md">
           <h2 className="mb-6 text-center text-2xl font-semibold tracking-tight text-neutral-900">
             Songs We Play
           </h2>
