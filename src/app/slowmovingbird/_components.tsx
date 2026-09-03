@@ -13,10 +13,10 @@ export function SlowMovingBirdHeader({ activePage }: { activePage: ActivePage })
   return (
     <header id="home" className="text-center">
       <Image
-        src="/slowmovingbird/slow-moving-bird-logo.png"
+        src="/slowmovingbird/smb-logo-full.jpg"
         alt="Slow Moving Bird"
-        width={1268}
-        height={1262}
+        width={1118}
+        height={1111}
         priority
         className="mx-auto h-auto w-full max-w-[260px] sm:max-w-[320px]"
       />
