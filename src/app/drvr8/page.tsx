@@ -21,6 +21,13 @@ const songs = [
   "Gardening at Night",
 ];
 
+const bandMembers = [
+  { name: "Andrew Barash", role: "Guitar" },
+  { name: "Matthew Bartone", role: "Vocals" },
+  { name: "Rich Minda West", role: "Drums" },
+  { name: "Ed Tremblay", role: "Bass" },
+];
+
 export default function Drvr8Page() {
   return (
     <main className="min-h-screen bg-white text-neutral-900">
@@ -70,6 +77,29 @@ export default function Drvr8Page() {
           </p>
         </section>
 
+        <section className="mx-auto mt-8 w-full max-w-md text-center">
+          <h2 className="text-2xl font-semibold tracking-tight text-neutral-900">
+            About
+          </h2>
+          <p className="mt-4 text-base leading-relaxed text-neutral-700">
+            DRVR.8 is a Seattle tribute band built around four players who love
+            the sound, energy, and songs of early R.E.M.
+          </p>
+          <h3 className="mt-6 text-sm font-semibold uppercase tracking-wide text-neutral-500">
+            Band Members
+          </h3>
+          <ul className="mt-4 space-y-2 text-base leading-relaxed text-neutral-700">
+            {bandMembers.map((member) => (
+              <li key={member.name}>
+                <span className="font-semibold text-neutral-900">
+                  {member.name}
+                </span>{" "}
+                — {member.role}
+              </li>
+            ))}
+          </ul>
+        </section>
+
         <section className="mx-auto mt-8 w-full max-w-md">
           <h2 className="mb-6 text-center text-2xl font-semibold tracking-tight text-neutral-900">
             Songs We Play
@@ -81,6 +111,20 @@ export default function Drvr8Page() {
               </li>
             ))}
           </ol>
+        </section>
+
+        <section className="mx-auto mt-10 w-full max-w-md border-t border-neutral-200 pt-6 text-center">
+          <h2 className="text-2xl font-semibold tracking-tight text-neutral-900">
+            Contact
+          </h2>
+          <p className="mt-4 text-base leading-relaxed text-neutral-600">
+            <a
+              href="mailto:edtrem@outlook.com"
+              className="underline underline-offset-4 hover:text-neutral-900"
+            >
+              edtrem@outlook.com
+            </a>
+          </p>
         </section>
       </div>
     </main>
