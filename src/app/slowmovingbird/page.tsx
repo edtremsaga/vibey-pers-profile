@@ -26,12 +26,61 @@ export default function SlowMovingBirdPage() {
     <SlowMovingBirdShell activePage="home">
       <section className="mx-auto mt-10 w-full max-w-xl text-center">
         <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
-          Slow Moving Bird
+          About the Band
         </h1>
-        <p className="mx-auto mt-5 max-w-xl text-xl leading-relaxed text-slate-700">
-          Slow Moving Bird is a rock band exploring the trials, tribulations, and
-          quiet victories of life in America.
-        </p>
+        <div className="mx-auto mt-5 max-w-xl space-y-4 text-lg leading-relaxed text-slate-700">
+          <p>
+            Slow Moving Bird is a Seattle band playing big, melodic rock songs
+            with roots in Springsteen, Wilco, and Pearl Jam.
+          </p>
+          <p>
+            The band released Once, In a Daydream... in 2020 and has recorded
+            new songs at Seattle’s London Bridge Studio for a second album,
+            coming soon. You can find their music on Apple Music, Spotify, and
+            other streaming platforms.
+          </p>
+        </div>
+        <div className="mx-auto mt-8 max-w-md text-left">
+          <h2 className="text-center text-2xl font-semibold tracking-tight text-slate-950">
+            Band Members
+          </h2>
+          <dl className="mt-5 space-y-3 text-base leading-relaxed text-slate-700">
+            <div>
+              <dt className="font-semibold text-slate-950">Gabe Sheffer</dt>
+              <dd>Rhythm Guitar/Vocals</dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-slate-950">Josh Cohen</dt>
+              <dd>Lead Guitar/Backing Vocals</dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-slate-950">Neel Blair</dt>
+              <dd>Piano/Keys/Organ</dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-slate-950">Paul Berkelhamer</dt>
+              <dd>Sax/Keys</dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-slate-950">
+                Andrew Zimmerman
+              </dt>
+              <dd>Slide Guitar</dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-slate-950">Fritz Marial</dt>
+              <dd>Bass Guitar (Recording)</dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-slate-950">Ed Tremblay</dt>
+              <dd>Bass Guitar (Live Shows)</dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-slate-950">Brian Compton</dt>
+              <dd>Drums/Percussion</dd>
+            </div>
+          </dl>
+        </div>
       </section>
 
       <section className="mx-auto mt-8 w-full max-w-md border-y border-slate-200 py-6 text-center">
