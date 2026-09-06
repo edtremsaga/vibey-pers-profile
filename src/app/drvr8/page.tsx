@@ -7,27 +7,6 @@ export const metadata: Metadata = {
     "DRVR.8 is an R.E.M. tribute band playing music from the early IRS years.",
 };
 
-const songs = [
-  "Radio Free Europe",
-  "Driver 8",
-  "So. Central Rain",
-  "The One I Love",
-  "Fall on Me",
-  "It's the End of the World as We Know It (And I Feel Fine)",
-  "Pretty Persuasion",
-  "Begin the Begin",
-  "Carnival of Sorts",
-  "Finest Worksong",
-  "Gardening at Night",
-];
-
-const bandMembers = [
-  { name: "Andrew Barash", role: "Guitar" },
-  { name: "Matthew Bartone", role: "Vocals" },
-  { name: "Rich Minda West", role: "Drums" },
-  { name: "Ed Tremblay", role: "Bass" },
-];
-
 export default function Drvr8Page() {
   return (
     <main className="min-h-screen bg-white text-neutral-900">
@@ -52,6 +31,7 @@ export default function Drvr8Page() {
             <a
               href="/drvr8"
               className="text-neutral-900 underline underline-offset-4"
+              aria-current="page"
             >
               Home
             </a>
@@ -61,6 +41,20 @@ export default function Drvr8Page() {
               className="underline underline-offset-4 hover:text-neutral-900"
             >
               Videos
+            </a>
+            <span className="mx-2 text-neutral-300">·</span>
+            <a
+              href="/drvr8/photos"
+              className="underline underline-offset-4 hover:text-neutral-900"
+            >
+              Photos
+            </a>
+            <span className="mx-2 text-neutral-300">·</span>
+            <a
+              href="/drvr8/songs"
+              className="underline underline-offset-4 hover:text-neutral-900"
+            >
+              Songs
             </a>
           </nav>
         </header>
@@ -81,36 +75,26 @@ export default function Drvr8Page() {
           <h2 className="text-2xl font-semibold tracking-tight text-neutral-900">
             About
           </h2>
-          <p className="mt-4 text-base leading-relaxed text-neutral-700">
-            DRVR.8 is a Seattle tribute band built around four players who love
-            the sound, energy, and songs of early R.E.M.
+          <p className="mt-4 text-base font-medium italic leading-relaxed text-neutral-700">
+            “We are HOPE despite the times…”
           </p>
-          <h3 className="mt-6 text-sm font-semibold uppercase tracking-wide text-neutral-500">
-            Band Members
-          </h3>
-          <ul className="mt-4 space-y-2 text-base leading-relaxed text-neutral-700">
-            {bandMembers.map((member) => (
-              <li key={member.name}>
-                <span className="font-semibold text-neutral-900">
-                  {member.name}
-                </span>{" "}
-                — {member.role}
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <section className="mx-auto mt-8 w-full max-w-md">
-          <h2 className="mb-6 text-center text-2xl font-semibold tracking-tight text-neutral-900">
-            Songs We Play
-          </h2>
-          <ol className="list-decimal space-y-3 pl-6 text-base leading-relaxed text-neutral-700">
-            {songs.map((song) => (
-              <li key={song} className="pl-1">
-                {song}
-              </li>
-            ))}
-          </ol>
+          <div className="mt-4 space-y-4 text-left text-base leading-relaxed text-neutral-700">
+            <p>
+              DRVR.8 is a Seattle-based retrospective project capturing the raw, enigmatic energy of R.E.M.’s formative I.R.S. Records era.
+            </p>
+            <p>
+              Born from an experiment within Seattle’s Festival of Friends community, the band made its live debut to a packed, electric crowd at the historic Central Saloon. The overwhelming response turned what was intended as a one-off gig into an ongoing project.
+            </p>
+            <p>
+              Bypassing R.E.M.’s later mainstream pop years, DRVR.8 focuses on the urgent, guitar-driven period from 1982 through 1987—from <em>Murmur</em> and <em>Reckoning</em> through <em>Lifes Rich Pageant</em> and <em>Document</em>.
+            </p>
+            <p>
+              The sound and spirit of the legendary Athens, Georgia quartet are channeled by Andrew Barash (Guitar Sounds), Rich West (Drum Beats), Ed Tremblay (Bass Lines), and Matthew Bartone (Vox and Stuff).
+            </p>
+            <p>
+              Blending iconic early alternative anthems with beloved deep cuts, DRVR.8 delivers a high-energy rock-and-roll experience celebrating the roots of college radio.
+            </p>
+          </div>
         </section>
 
         <section className="mx-auto mt-10 w-full max-w-md border-t border-neutral-200 pt-6 text-center">

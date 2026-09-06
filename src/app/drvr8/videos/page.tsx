@@ -97,8 +97,23 @@ export default function Drvr8VideosPage() {
             <a
               href="/drvr8/videos"
               className="text-neutral-900 underline underline-offset-4"
+              aria-current="page"
             >
               Videos
+            </a>
+            <span className="mx-2 text-neutral-300">·</span>
+            <a
+              href="/drvr8/photos"
+              className="underline underline-offset-4 hover:text-neutral-900"
+            >
+              Photos
+            </a>
+            <span className="mx-2 text-neutral-300">·</span>
+            <a
+              href="/drvr8/songs"
+              className="underline underline-offset-4 hover:text-neutral-900"
+            >
+              Songs
             </a>
           </nav>
           <h1 className="mt-10 text-4xl font-semibold tracking-tight text-neutral-900">
