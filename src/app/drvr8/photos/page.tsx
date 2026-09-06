@@ -61,9 +61,14 @@ export default function Drvr8PhotosPage() {
           <h1 className="text-2xl font-semibold tracking-tight text-neutral-900">
             Photos
           </h1>
-          <p className="mt-4 text-base leading-relaxed text-neutral-700">
-            Photos coming soon.
-          </p>
+          <Image
+            src="/drvr8/central-saloon-band.jpg"
+            alt="The four members of DRVR.8 together on stage at the Central Saloon under blue lights."
+            width={3000}
+            height={2310}
+            sizes="(max-width: 496px) calc(100vw - 48px), 448px"
+            className="mt-6 h-auto w-full"
+          />
         </section>
       </div>
     </main>

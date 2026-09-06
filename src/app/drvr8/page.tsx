@@ -59,18 +59,6 @@ export default function Drvr8Page() {
           </nav>
         </header>
 
-        <section className="mx-auto mt-8 w-full max-w-md border-y border-neutral-200 py-6 text-center">
-          <p className="text-sm font-medium tracking-wide text-neutral-500">
-            SEPTEMBER 4, 2026 · 8 PM
-          </p>
-          <p className="mt-3 text-2xl font-semibold tracking-tight text-neutral-900">
-            Slim’s Last Chance
-          </p>
-          <p className="mt-2 text-base leading-relaxed text-neutral-500">
-            Seattle, WA
-          </p>
-        </section>
-
         <section className="mx-auto mt-8 w-full max-w-md text-center">
           <h2 className="text-2xl font-semibold tracking-tight text-neutral-900">
             About
