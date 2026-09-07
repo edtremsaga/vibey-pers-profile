@@ -63,24 +63,18 @@ export default function Drvr8Page() {
           <h2 className="text-2xl font-semibold tracking-tight text-neutral-900">
             About
           </h2>
-          <p className="mt-4 text-base font-medium italic leading-relaxed text-neutral-700">
-            “We are HOPE despite the times…”
-          </p>
           <div className="mt-4 space-y-4 text-left text-base leading-relaxed text-neutral-700">
             <p>
-              DRVR.8 is a Seattle-based retrospective project capturing the raw, enigmatic energy of R.E.M.’s formative I.R.S. Records era.
+              DRVR.8 is a Seattle-based retrospective project capturing the raw, enigmatic energy of R.E.M.’s formative years. DRVR.8 focuses on the urgent, guitar-driven period of their 80&apos;s releases on I.R.S Records.
             </p>
             <p>
-              Born from an experiment within Seattle’s Festival of Friends community, the band made its live debut to a packed, electric crowd at the historic Central Saloon. The overwhelming response turned what was intended as a one-off gig into an ongoing project.
+              The band made its live debut to a packed, electric crowd at the historic Central Saloon in February of 2026. The overwhelming response turned what was intended as a one-off gig into an ongoing project.
             </p>
             <p>
-              Bypassing R.E.M.’s later mainstream pop years, DRVR.8 focuses on the urgent, guitar-driven period from 1982 through 1987—from <em>Murmur</em> and <em>Reckoning</em> through <em>Lifes Rich Pageant</em> and <em>Document</em>.
+              Blending iconic, early alternative anthems with beloved deep cuts, DRVR.8 delivers a high-energy rock-and-roll experience celebrating the roots of college radio.
             </p>
             <p>
-              The sound and spirit of the legendary Athens, Georgia quartet are channeled by Andrew Barash (Guitar Sounds), Rich West (Drum Beats), Ed Tremblay (Bass Lines), and Matthew Bartone (Vox and Stuff).
-            </p>
-            <p>
-              Blending iconic early alternative anthems with beloved deep cuts, DRVR.8 delivers a high-energy rock-and-roll experience celebrating the roots of college radio.
+              DRVR.8 is Matthew Bartone (Lead Vocals), Andrew Barash (Guitar &amp; Vocals), Rich West (Drums &amp; Vocals) and Ed Tremblay (Bass).
             </p>
           </div>
         </section>

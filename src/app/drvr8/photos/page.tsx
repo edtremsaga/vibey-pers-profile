@@ -62,12 +62,13 @@ export default function Drvr8PhotosPage() {
             Photos
           </h1>
           <Image
-            src="/drvr8/central-saloon-band.jpg"
+            src="/drvr8/central-saloon-band-original.jpg"
             alt="The four members of DRVR.8 together on stage at the Central Saloon under blue lights."
-            width={3000}
-            height={2310}
+            width={3024}
+            height={4032}
+            quality={90}
             sizes="(max-width: 496px) calc(100vw - 48px), 448px"
-            className="mt-6 h-auto w-full"
+            className="mt-6 aspect-[100/77] w-full object-cover object-[center_78%]"
           />
         </section>
       </div>
