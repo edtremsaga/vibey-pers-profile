@@ -28,21 +28,21 @@ export default function Drvr8PhotosPage() {
           >
             <a
               href="/drvr8"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Home
             </a>
             <span className="mx-2 text-neutral-300">·</span>
             <a
               href="/drvr8/videos"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Videos
             </a>
             <span className="mx-2 text-neutral-300">·</span>
             <a
               href="/drvr8/photos"
-              className="text-neutral-900 underline underline-offset-4"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
               aria-current="page"
             >
               Photos
@@ -50,7 +50,7 @@ export default function Drvr8PhotosPage() {
             <span className="mx-2 text-neutral-300">·</span>
             <a
               href="/drvr8/songs"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Songs
             </a>
@@ -58,7 +58,7 @@ export default function Drvr8PhotosPage() {
         </header>
 
         <section className="mx-auto mt-8 w-full max-w-md text-center">
-          <h1 className="text-2xl font-semibold tracking-tight text-neutral-900">
+          <h1 className="text-2xl font-semibold tracking-tight text-[#087f8c]">
             Photos
           </h1>
           <Image

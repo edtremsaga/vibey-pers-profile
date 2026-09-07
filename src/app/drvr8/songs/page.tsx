@@ -42,28 +42,28 @@ export default function Drvr8SongsPage() {
           >
             <a
               href="/drvr8"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Home
             </a>
             <span className="mx-2 text-neutral-300">·</span>
             <a
               href="/drvr8/videos"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Videos
             </a>
             <span className="mx-2 text-neutral-300">·</span>
             <a
               href="/drvr8/photos"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Photos
             </a>
             <span className="mx-2 text-neutral-300">·</span>
             <a
               href="/drvr8/songs"
-              className="text-neutral-900 underline underline-offset-4"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
               aria-current="page"
             >
               Songs
@@ -72,7 +72,7 @@ export default function Drvr8SongsPage() {
         </header>
 
         <section className="mx-auto mt-8 w-full max-w-md">
-          <h1 className="mb-6 text-center text-2xl font-semibold tracking-tight text-neutral-900">
+          <h1 className="mb-6 text-center text-2xl font-semibold tracking-tight text-[#087f8c]">
             Songs We Play
           </h1>
           <ol className="list-decimal space-y-3 pl-6 text-base leading-relaxed text-neutral-700">

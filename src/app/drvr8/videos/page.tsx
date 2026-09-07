@@ -47,8 +47,8 @@ function VideoEmbed({
         <h2
           className={
             featured
-              ? "text-2xl font-semibold tracking-tight text-neutral-900"
-              : "text-xl font-semibold tracking-tight text-neutral-900"
+              ? "text-2xl font-semibold tracking-tight text-[#087f8c]"
+              : "text-xl font-semibold tracking-tight text-[#087f8c]"
           }
         >
           {title}
@@ -89,14 +89,14 @@ export default function Drvr8VideosPage() {
           >
             <a
               href="/drvr8"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Home
             </a>
             <span className="mx-2 text-neutral-300">·</span>
             <a
               href="/drvr8/videos"
-              className="text-neutral-900 underline underline-offset-4"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
               aria-current="page"
             >
               Videos
@@ -104,19 +104,19 @@ export default function Drvr8VideosPage() {
             <span className="mx-2 text-neutral-300">·</span>
             <a
               href="/drvr8/photos"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Photos
             </a>
             <span className="mx-2 text-neutral-300">·</span>
             <a
               href="/drvr8/songs"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Songs
             </a>
           </nav>
-          <h1 className="mt-10 text-4xl font-semibold tracking-tight text-neutral-900">
+          <h1 className="mt-10 text-4xl font-semibold tracking-tight text-[#087f8c]">
             DRVR.8 Live
           </h1>
         </header>

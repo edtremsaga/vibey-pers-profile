@@ -30,7 +30,7 @@ export default function Drvr8Page() {
           >
             <a
               href="/drvr8"
-              className="text-neutral-900 underline underline-offset-4"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
               aria-current="page"
             >
               Home
@@ -38,21 +38,21 @@ export default function Drvr8Page() {
             <span className="mx-2 text-neutral-300">·</span>
             <a
               href="/drvr8/videos"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Videos
             </a>
             <span className="mx-2 text-neutral-300">·</span>
             <a
               href="/drvr8/photos"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Photos
             </a>
             <span className="mx-2 text-neutral-300">·</span>
             <a
               href="/drvr8/songs"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Songs
             </a>
@@ -60,7 +60,7 @@ export default function Drvr8Page() {
         </header>
 
         <section className="mx-auto mt-8 w-full max-w-md text-center">
-          <h2 className="text-2xl font-semibold tracking-tight text-neutral-900">
+          <h2 className="text-2xl font-semibold tracking-tight text-[#087f8c]">
             About
           </h2>
           <div className="mt-4 space-y-4 text-left text-base leading-relaxed text-neutral-700">
@@ -80,13 +80,13 @@ export default function Drvr8Page() {
         </section>
 
         <section className="mx-auto mt-10 w-full max-w-md border-t border-neutral-200 pt-6 text-center">
-          <h2 className="text-2xl font-semibold tracking-tight text-neutral-900">
+          <h2 className="text-2xl font-semibold tracking-tight text-[#087f8c]">
             Contact
           </h2>
           <p className="mt-4 text-base leading-relaxed text-neutral-600">
             <a
               href="mailto:edtrem@outlook.com"
-              className="underline underline-offset-4 hover:text-neutral-900"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               edtrem@outlook.com
             </a>
