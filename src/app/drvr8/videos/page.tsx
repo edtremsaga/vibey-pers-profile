@@ -137,9 +137,15 @@ export default function Drvr8VideosPage() {
 
           <div className="space-y-10">
             <VideoEmbed
-              title="Slim’s Last Chance — September 4, 2026"
-              location="Seattle, WA"
+              title="Pretty Persuasion"
+              location="Slim’s Last Chance · Seattle, WA · September 4, 2026"
               embedUrl="https://www.youtube.com/embed/_a4suadxWHo"
+              portrait
+            />
+            <VideoEmbed
+              title="Gardening at Night"
+              location="Slim’s Last Chance · Seattle, WA · September 4, 2026"
+              embedUrl="https://www.youtube.com/embed/USuS5M94tTc"
               portrait
             />
             {videos.map((video) => (
