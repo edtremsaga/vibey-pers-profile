@@ -35,11 +35,13 @@ function VideoEmbed({
   location,
   embedUrl,
   featured = false,
+  portrait = false,
 }: {
   title: string;
   location: string;
   embedUrl: string;
   featured?: boolean;
+  portrait?: boolean;
 }) {
   return (
     <section className={featured ? "space-y-4" : "space-y-3"}>
@@ -57,7 +59,11 @@ function VideoEmbed({
           {location}
         </p>
       </div>
-      <div className="aspect-video w-full overflow-hidden bg-neutral-100">
+      <div
+        className={portrait
+          ? "mx-auto aspect-[9/16] w-full max-w-[216px] overflow-hidden bg-neutral-100"
+          : "aspect-video w-full overflow-hidden bg-neutral-100"}
+      >
         <iframe
           src={embedUrl}
           title={title}
@@ -130,6 +136,12 @@ export default function Drvr8VideosPage() {
           />
 
           <div className="space-y-10">
+            <VideoEmbed
+              title="Slim’s Last Chance — September 4, 2026"
+              location="Seattle, WA"
+              embedUrl="https://www.youtube.com/embed/_a4suadxWHo"
+              portrait
+            />
             {videos.map((video) => (
               <VideoEmbed
                 key={video.embedUrl}
