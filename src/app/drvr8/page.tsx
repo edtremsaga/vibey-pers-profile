@@ -2,7 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "DRVR.8 | Vibey Craft",
+  title: "DRVR.8",
   description:
     "DRVR.8 is an R.E.M. tribute band playing music from the early IRS years.",
 };
