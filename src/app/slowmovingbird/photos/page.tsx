@@ -37,39 +37,57 @@ const photos = [
 const studioPhotos = [
   {
     src: "/slowmovingbird/photos/normandy-studio-2026/normandy-studio-2026-01.jpg",
-    alt: "Slow Moving Bird recording at Normandy Studio in summer 2026",
+    alt: "Slow Moving Bird recording at London Bridge Studio in summer 2026",
     width: 720,
     height: 960,
   },
   {
     src: "/slowmovingbird/photos/normandy-studio-2026/normandy-studio-2026-02.jpg",
-    alt: "Slow Moving Bird recording at Normandy Studio in summer 2026",
+    alt: "Slow Moving Bird recording at London Bridge Studio in summer 2026",
     width: 1536,
     height: 2048,
   },
   {
     src: "/slowmovingbird/photos/normandy-studio-2026/normandy-studio-2026-03.jpg",
-    alt: "Slow Moving Bird recording at Normandy Studio in summer 2026",
+    alt: "Slow Moving Bird recording at London Bridge Studio in summer 2026",
     width: 1536,
     height: 2048,
   },
   {
     src: "/slowmovingbird/photos/normandy-studio-2026/normandy-studio-2026-04.jpg",
-    alt: "Slow Moving Bird recording at Normandy Studio in summer 2026",
+    alt: "Slow Moving Bird recording at London Bridge Studio in summer 2026",
     width: 1536,
     height: 2048,
   },
   {
     src: "/slowmovingbird/photos/normandy-studio-2026/normandy-studio-2026-05.jpg",
-    alt: "Slow Moving Bird recording at Normandy Studio in summer 2026",
+    alt: "Slow Moving Bird recording at London Bridge Studio in summer 2026",
     width: 1536,
     height: 2048,
   },
   {
     src: "/slowmovingbird/photos/normandy-studio-2026/normandy-studio-2026-06.jpg",
-    alt: "Slow Moving Bird recording at Normandy Studio in summer 2026",
+    alt: "Slow Moving Bird recording at London Bridge Studio in summer 2026",
     width: 1536,
     height: 2048,
+  },
+  {
+    src: "/slowmovingbird/photos/normandy-studio-2026/london-bridge-studio-2026-07.jpg",
+    alt: "Slow Moving Bird guitarist recording at London Bridge Studio in summer 2026",
+    width: 1440,
+    height: 1440,
+  },
+  {
+    src: "/slowmovingbird/photos/normandy-studio-2026/london-bridge-studio-2026-08.jpg",
+    alt: "Slow Moving Bird recording at London Bridge Studio in summer 2026",
+    width: 2048,
+    height: 1882,
+  },
+  {
+    src: "/slowmovingbird/photos/normandy-studio-2026/london-bridge-studio-2026-09.jpg",
+    alt: "Slow Moving Bird recording at London Bridge Studio in summer 2026",
+    width: 2048,
+    height: 1542,
   },
 ];
 
@@ -99,7 +117,7 @@ export default function SlowMovingBirdPhotosPage() {
             In the Studio
           </h2>
           <p className="mt-2 text-lg text-[#555]">
-            Normandy Studio Summer 2026
+            London Bridge Studio Summer 2026
           </p>
           <div className="mt-8 space-y-8">
             {studioPhotos.map((photo) => (
