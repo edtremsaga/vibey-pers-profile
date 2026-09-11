@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SlowMovingBirdShell } from "./_components";
 
 export const metadata: Metadata = {
-  title: "Slow Moving Bird | Vibey Craft",
+  title: "Slow Moving Bird",
   description:
     "Slow Moving Bird is a rock band exploring the trials, tribulations, and quiet victories of life in America.",
 };

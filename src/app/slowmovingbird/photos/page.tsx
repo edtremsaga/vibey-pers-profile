@@ -3,7 +3,7 @@ import Image from "next/image";
 import { SlowMovingBirdShell } from "../_components";
 
 export const metadata: Metadata = {
-  title: "Slow Moving Bird Photos | Vibey Craft",
+  title: "Slow Moving Bird Photos",
   description: "Photos from Slow Moving Bird.",
 };
 
