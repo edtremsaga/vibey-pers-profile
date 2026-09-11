@@ -28,6 +28,45 @@ const photos = [
   },
 ];
 
+const studioPhotos = [
+  {
+    src: "/slowmovingbird/photos/normandy-studio-2026/normandy-studio-2026-01.jpg",
+    alt: "Slow Moving Bird recording at Normandy Studio in summer 2026",
+    width: 720,
+    height: 960,
+  },
+  {
+    src: "/slowmovingbird/photos/normandy-studio-2026/normandy-studio-2026-02.jpg",
+    alt: "Slow Moving Bird recording at Normandy Studio in summer 2026",
+    width: 1536,
+    height: 2048,
+  },
+  {
+    src: "/slowmovingbird/photos/normandy-studio-2026/normandy-studio-2026-03.jpg",
+    alt: "Slow Moving Bird recording at Normandy Studio in summer 2026",
+    width: 1536,
+    height: 2048,
+  },
+  {
+    src: "/slowmovingbird/photos/normandy-studio-2026/normandy-studio-2026-04.jpg",
+    alt: "Slow Moving Bird recording at Normandy Studio in summer 2026",
+    width: 1536,
+    height: 2048,
+  },
+  {
+    src: "/slowmovingbird/photos/normandy-studio-2026/normandy-studio-2026-05.jpg",
+    alt: "Slow Moving Bird recording at Normandy Studio in summer 2026",
+    width: 1536,
+    height: 2048,
+  },
+  {
+    src: "/slowmovingbird/photos/normandy-studio-2026/normandy-studio-2026-06.jpg",
+    alt: "Slow Moving Bird recording at Normandy Studio in summer 2026",
+    width: 1536,
+    height: 2048,
+  },
+];
+
 export default function SlowMovingBirdPhotosPage() {
   return (
     <SlowMovingBirdShell activePage="photos">
@@ -48,6 +87,28 @@ export default function SlowMovingBirdPhotosPage() {
             />
           ))}
         </div>
+
+        <section className="mt-16 border-t border-[#d9d9d9] pt-12">
+          <h2 className="text-3xl font-semibold tracking-tight text-[#087f8c]">
+            In the Studio
+          </h2>
+          <p className="mt-2 text-lg text-[#555]">
+            Normandy Studio Summer 2026
+          </p>
+          <div className="mt-8 space-y-8">
+            {studioPhotos.map((photo) => (
+              <Image
+                key={photo.src}
+                src={photo.src}
+                alt={photo.alt}
+                width={photo.width}
+                height={photo.height}
+                sizes="(min-width: 768px) 576px, calc(100vw - 48px)"
+                className="h-auto w-full"
+              />
+            ))}
+          </div>
+        </section>
       </section>
     </SlowMovingBirdShell>
   );

@@ -19,7 +19,7 @@ export function SlowMovingBirdHeader({ activePage }: { activePage: ActivePage })
         width={1118}
         height={1111}
         priority
-        className="mx-auto h-auto w-full max-w-[260px] sm:max-w-[320px]"
+        className="mx-auto h-auto w-full max-w-[220px] sm:max-w-[280px]"
       />
       <nav
         aria-label="Slow Moving Bird"
