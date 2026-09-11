@@ -32,7 +32,7 @@ export default function SlowMovingBirdPhotosPage() {
   return (
     <SlowMovingBirdShell activePage="photos">
       <section className="mx-auto mt-10 w-full max-w-xl text-center">
-        <h1 className="text-4xl font-semibold tracking-tight text-slate-950">
+        <h1 className="text-4xl font-semibold tracking-tight text-[#087f8c]">
           Photos
         </h1>
         <div className="mt-8 space-y-8">
