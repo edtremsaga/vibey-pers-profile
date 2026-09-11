@@ -26,6 +26,12 @@ const photos = [
     width: 2909,
     height: 4355,
   },
+  {
+    src: "/slowmovingbird/photos/slow-moving-bird-sax-trumpet.jpg",
+    alt: "Slow Moving Bird musicians performing with saxophone and trumpet",
+    width: 960,
+    height: 720,
+  },
 ];
 
 const studioPhotos = [
