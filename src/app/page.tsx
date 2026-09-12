@@ -215,6 +215,12 @@ export default function Home() {
 
               <ul className="space-y-4 text-neutral-700">
                 <li>
+                  <span className="text-neutral-500">September 2026</span> — Band websites — I built and launched websites for the two bands I play bass in: DRVR.8, an R.E.M. tribute project, and Slow Moving Bird, a Seattle original rock band. I designed the pages, organized band media and song information, connected custom domains, and set up the sites for sharing with fans. The sites give each band a home for music, videos, photos, and song information.
+                  <div className="mt-1 text-sm text-neutral-500">
+                    Links: <a href="https://drvr8.band" className="hover:underline">DRVR.8</a> · <a href="https://vibeycraft.com/slowmovingbird" className="hover:underline">Slow Moving Bird</a>
+                  </div>
+                </li>
+                <li>
                   <span className="text-neutral-500">June 2026</span> — Liner Notez for iPhone — Shipped version 1.0 to the Apple App Store. The app helps music fans research album credits, tracklists, release editions, producers, and liner-note-style metadata, with My Library and private on-device album notes.
                 </li>
                 <li>
