@@ -83,12 +83,6 @@ const studioPhotos = [
     width: 2048,
     height: 1882,
   },
-  {
-    src: "/slowmovingbird/photos/normandy-studio-2026/london-bridge-studio-2026-09.jpg",
-    alt: "Slow Moving Bird recording at London Bridge Studio in summer 2026",
-    width: 2048,
-    height: 1542,
-  },
 ];
 
 export default function SlowMovingBirdPhotosPage() {
