@@ -2,11 +2,11 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "DRVR.8 Photos",
-  description: "Photos of DRVR.8, an R.E.M. tribute band.",
+  title: "DRVR.8 Contact",
+  description: "Contact DRVR.8, an R.E.M. tribute band.",
 };
 
-export default function Drvr8PhotosPage() {
+export default function Drvr8ContactPage() {
   return (
     <main className="min-h-screen bg-white text-neutral-900">
       <div className="mx-auto max-w-2xl px-6 py-8 sm:py-10">
@@ -22,10 +22,7 @@ export default function Drvr8PhotosPage() {
           <p className="mx-auto mt-5 max-w-xl text-xl leading-relaxed text-neutral-700">
             Playing the music of R.E.M., from the early IRS years.
           </p>
-          <nav
-            aria-label="DRVR.8"
-            className="mt-6 text-sm text-neutral-500"
-          >
+          <nav aria-label="DRVR.8" className="mt-6 text-sm text-neutral-500">
             <a
               href="/drvr8"
               className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
@@ -43,7 +40,6 @@ export default function Drvr8PhotosPage() {
             <a
               href="/drvr8/photos"
               className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
-              aria-current="page"
             >
               Photos
             </a>
@@ -58,25 +54,25 @@ export default function Drvr8PhotosPage() {
             <a
               href="/drvr8/contact"
               className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+              aria-current="page"
             >
               Contact
             </a>
           </nav>
         </header>
 
-        <section className="mx-auto mt-8 w-full max-w-md text-center">
-          <h1 className="text-2xl font-semibold tracking-tight text-[#087f8c]">
-            Photos
+        <section className="mx-auto mt-10 w-full max-w-md text-center">
+          <h1 className="text-4xl font-semibold tracking-tight text-[#087f8c]">
+            Contact
           </h1>
-          <Image
-            src="/drvr8/central-saloon-band-original.jpg"
-            alt="The four members of DRVR.8 together on stage at the Central Saloon under blue lights."
-            width={3024}
-            height={4032}
-            quality={90}
-            sizes="(max-width: 496px) calc(100vw - 48px), 448px"
-            className="mt-6 aspect-[100/77] w-full object-cover object-[center_78%]"
-          />
+          <p className="mt-4 text-base leading-relaxed text-neutral-600">
+            <a
+              href="mailto:edtrem@outlook.com"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+            >
+              edtrem@outlook.com
+            </a>
+          </p>
         </section>
       </div>
     </main>

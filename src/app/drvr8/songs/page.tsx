@@ -68,6 +68,13 @@ export default function Drvr8SongsPage() {
             >
               Songs
             </a>
+            <span className="mx-2 text-neutral-300">·</span>
+            <a
+              href="/drvr8/contact"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+            >
+              Contact
+            </a>
           </nav>
         </header>
 

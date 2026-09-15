@@ -56,6 +56,13 @@ export default function Drvr8Page() {
             >
               Songs
             </a>
+            <span className="mx-2 text-neutral-300">·</span>
+            <a
+              href="/drvr8/contact"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+            >
+              Contact
+            </a>
           </nav>
         </header>
 
@@ -79,19 +86,6 @@ export default function Drvr8Page() {
           </div>
         </section>
 
-        <section className="mx-auto mt-10 w-full max-w-md border-t border-neutral-200 pt-6 text-center">
-          <h2 className="text-2xl font-semibold tracking-tight text-[#087f8c]">
-            Contact
-          </h2>
-          <p className="mt-4 text-base leading-relaxed text-neutral-600">
-            <a
-              href="mailto:edtrem@outlook.com"
-              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
-            >
-              edtrem@outlook.com
-            </a>
-          </p>
-        </section>
       </div>
     </main>
   );
