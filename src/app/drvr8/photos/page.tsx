@@ -66,7 +66,7 @@ export default function Drvr8PhotosPage() {
 
         <section className="mx-auto mt-8 w-full max-w-md text-center">
           <h1 className="text-2xl font-semibold tracking-tight text-[#087f8c]">
-            Photos
+            Live Shows
           </h1>
           <Image
             src="/drvr8/central-saloon-band-original.jpg"
