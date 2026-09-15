@@ -10,25 +10,25 @@ export const metadata: Metadata = {
 const photos = [
   {
     src: "/slowmovingbird/photos/slow-moving-bird-live-band.png",
-    alt: "Slow Moving Bird performing live at SeaMonster Lounge",
+    alt: "Slow Moving Bird performing live at Orient Express in Seattle, summer 2026",
     width: 1902,
     height: 1524,
   },
   {
     src: "/slowmovingbird/photos/slow-moving-bird-sax.jpeg",
-    alt: "Slow Moving Bird saxophonist performing live",
+    alt: "Slow Moving Bird saxophonist performing live at Orient Express in Seattle, summer 2026",
     width: 4713,
     height: 5584,
   },
   {
     src: "/slowmovingbird/photos/slow-moving-bird-guitar-vocal.jpeg",
-    alt: "Slow Moving Bird guitarist and vocalist performing live",
+    alt: "Slow Moving Bird guitarist and vocalist performing live at Orient Express in Seattle, summer 2026",
     width: 2909,
     height: 4355,
   },
   {
     src: "/slowmovingbird/photos/slow-moving-bird-sax-trumpet.jpg",
-    alt: "Slow Moving Bird musicians performing with saxophone and trumpet",
+    alt: "Slow Moving Bird musicians performing with saxophone and trumpet at Seamonster Lounge in Seattle, spring 2026",
     width: 960,
     height: 720,
   },
@@ -96,21 +96,37 @@ export default function SlowMovingBirdPhotosPage() {
     <SlowMovingBirdShell activePage="photos">
       <section className="mx-auto mt-10 w-full max-w-xl text-center">
         <h1 className="text-4xl font-semibold tracking-tight text-[#087f8c]">
-          Photos
+          Live Shows
         </h1>
-        <div className="mt-8 space-y-8">
-          {photos.map((photo) => (
-            <Image
-              key={photo.src}
-              src={photo.src}
-              alt={photo.alt}
-              width={photo.width}
-              height={photo.height}
-              sizes="(min-width: 768px) 576px, calc(100vw - 48px)"
-              className="h-auto w-full"
-            />
-          ))}
-        </div>
+        {[
+          {
+            title: "Orient Express — Seattle, Summer 2026",
+            photos: photos.slice(0, 3),
+          },
+          {
+            title: "Seamonster Lounge — Seattle, Spring 2026",
+            photos: photos.slice(3),
+          },
+        ].map((show) => (
+          <section key={show.title} className="mt-8">
+            <h2 className="text-xl font-semibold text-[#087f8c]">
+              {show.title}
+            </h2>
+            <div className="mt-6 space-y-8">
+              {show.photos.map((photo) => (
+                <Image
+                  key={photo.src}
+                  src={photo.src}
+                  alt={photo.alt}
+                  width={photo.width}
+                  height={photo.height}
+                  sizes="(min-width: 768px) 576px, calc(100vw - 48px)"
+                  className="h-auto w-full"
+                />
+              ))}
+            </div>
+          </section>
+        ))}
 
         <section className="mt-16 border-t border-[#d9d9d9] pt-12">
           <h2 className="text-3xl font-semibold tracking-tight text-[#087f8c]">
