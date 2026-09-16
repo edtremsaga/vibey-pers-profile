@@ -68,15 +68,34 @@ export default function Drvr8PhotosPage() {
           <h1 className="text-2xl font-semibold tracking-tight text-[#087f8c]">
             Live Shows
           </h1>
-          <Image
-            src="/drvr8/central-saloon-band-original.jpg"
-            alt="The four members of DRVR.8 together on stage at the Central Saloon under blue lights."
-            width={3024}
-            height={4032}
-            quality={90}
-            sizes="(max-width: 496px) calc(100vw - 48px), 448px"
-            className="mt-6 aspect-[100/77] w-full object-cover object-[center_78%]"
-          />
+          <figure className="mt-6">
+            <Image
+              src="/drvr8/central-saloon-band-original.jpg"
+              alt="The four members of DRVR.8 together on stage under blue lights at the Central Saloon in Seattle, WA, in spring 2026."
+              width={3024}
+              height={4032}
+              quality={90}
+              sizes="(max-width: 496px) calc(100vw - 48px), 448px"
+              className="aspect-[100/77] w-full object-cover object-[center_78%]"
+            />
+            <figcaption className="mt-3 text-sm text-neutral-700">
+              Central Saloon — Seattle, WA, Spring 2026
+            </figcaption>
+          </figure>
+          <figure className="mt-6">
+            <Image
+              src="/drvr8/last-chance-saloon-2026-09-04.png"
+              alt="All four members of DRVR.8 performing at the Last Chance Saloon in Seattle on September 4, 2026."
+              width={1404}
+              height={1120}
+              quality={90}
+              sizes="(max-width: 496px) calc(100vw - 48px), 448px"
+              className="h-auto w-full"
+            />
+            <figcaption className="mt-3 text-sm text-neutral-700">
+              Last Chance Saloon — Seattle, September 4, 2026
+            </figcaption>
+          </figure>
         </section>
       </div>
     </main>
