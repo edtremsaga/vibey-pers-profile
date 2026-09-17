@@ -14,12 +14,12 @@ export default function Drvr8Page() {
         <header className="mt-2 text-center sm:mt-4">
           <h1 className="sr-only">DRVR.8</h1>
           <Image
-            src="/drvr8/drvr8-logo.png"
-            alt="DRVR.8 — A Tribute to R.E.M."
-            width={326}
-            height={308}
+            src="/drvr8/drvr8-poster-rich.png"
+            alt="DRVR.8 performing live above a DRVR.8 A Tribute to R.E.M. train poster."
+            width={1254}
+            height={1254}
             priority
-            className="mx-auto h-auto w-full max-w-[280px] sm:max-w-[326px]"
+            className="mx-auto h-auto w-full max-w-md"
           />
           <p className="mx-auto mt-5 max-w-xl text-xl leading-relaxed text-neutral-700">
             Playing the music of R.E.M., from the early IRS years.
