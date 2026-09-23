@@ -1,9 +1,10 @@
 import Image from "next/image";
 
-type ActivePage = "home" | "videos" | "photos" | "songs" | "contact";
+type ActivePage = "home" | "shows" | "videos" | "photos" | "songs" | "contact";
 
 const navItems = [
   { label: "Home", href: "/slowmovingbird", page: "home" },
+  { label: "Shows", href: "/slowmovingbird/shows", page: "shows" },
   { label: "Videos", href: "/slowmovingbird/videos", page: "videos" },
   { label: "Photos", href: "/slowmovingbird/photos", page: "photos" },
   { label: "Songs", href: "/slowmovingbird/songs", page: "songs" },
@@ -29,6 +30,7 @@ export function SlowMovingBirdHeader({ activePage }: { activePage: ActivePage })
           <span key={item.href}>
             <a
               href={item.href}
+              aria-current={item.page === activePage ? "page" : undefined}
               className={
                 item.page === activePage
                   ? "text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"

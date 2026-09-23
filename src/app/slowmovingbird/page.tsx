@@ -75,8 +75,16 @@ export default function SlowMovingBirdPage() {
           Shows
         </h2>
         <p className="mt-4 text-base leading-relaxed text-neutral-600">
-          No upcoming shows at this time.
+          Wednesday, October 28, 2026 · 9 PM · Ages 21+
+          <br />
+          Slim’s Last Chance · Seattle, WA
         </p>
+        <a
+          href="/slowmovingbird/shows"
+          className="mt-3 inline-block text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+        >
+          View show details and poster
+        </a>
       </section>
     </SlowMovingBirdShell>
   );
