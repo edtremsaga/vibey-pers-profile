@@ -85,16 +85,16 @@ export default function Drvr8ShowsPage() {
                 alt="Bands Don’t Cry and DRVR.8 concert poster with red roses, railroad tracks, and a moonlit forest. Event details follow below."
                 width={1036}
                 height={1610}
-                sizes="(max-width: 608px) calc(100vw - 48px), 560px"
+                sizes="(max-width: 328px) calc(100vw - 48px), 280px"
                 priority
-                className="h-auto w-full"
+                className="mx-auto h-auto w-full max-w-[280px]"
               />
               <div className="mt-6 text-center">
                 <h2
                   id="bar-two-eleven-show"
                   className="text-2xl font-semibold tracking-tight text-[#087f8c]"
                 >
-                  Bands Don’t Cry with DRVR.8
+                  DRVR.8 with Bands Don’t Cry
                 </h2>
                 <dl className="mt-5 space-y-4 text-base leading-relaxed text-neutral-700">
                   <div>
@@ -127,15 +127,15 @@ export default function Drvr8ShowsPage() {
                 alt="Bands Don’t Cry and DRVR.8 concert poster with red roses, shattered glass, and a dark forest. Event details follow below."
                 width={1036}
                 height={1610}
-                sizes="(max-width: 608px) calc(100vw - 48px), 560px"
-                className="h-auto w-full"
+                sizes="(max-width: 328px) calc(100vw - 48px), 280px"
+                className="mx-auto h-auto w-full max-w-[280px]"
               />
               <div className="mt-6 text-center">
                 <h2
                   id="shakedown-show"
                   className="text-2xl font-semibold tracking-tight text-[#087f8c]"
                 >
-                  Bands Don’t Cry with DRVR.8
+                  DRVR.8 with Bands Don’t Cry
                 </h2>
                 <dl className="mt-5 space-y-4 text-base leading-relaxed text-neutral-700">
                   <div>
