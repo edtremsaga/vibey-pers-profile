@@ -20,6 +20,14 @@ const songs = [
   "Gardening at Night",
 ];
 
+const songsInProgress = [
+  "Maps and Legends",
+  "Sitting Still",
+  "Harborcoat",
+  "Orange Crush",
+  "Wolves, Lower",
+];
+
 export default function Drvr8SongsPage() {
   return (
     <main className="min-h-screen bg-white text-neutral-900">
@@ -97,6 +105,19 @@ export default function Drvr8SongsPage() {
               </li>
             ))}
           </ol>
+
+          <section className="mt-10 border-t border-neutral-200 pt-8">
+            <h2 className="mb-6 text-center text-2xl font-semibold tracking-tight text-[#087f8c]">
+              Songs We’re Working On
+            </h2>
+            <ol className="list-decimal space-y-3 pl-6 text-base leading-relaxed text-neutral-700">
+              {songsInProgress.map((song) => (
+                <li key={song} className="pl-1">
+                  {song}
+                </li>
+              ))}
+            </ol>
+          </section>
         </section>
       </div>
     </main>
