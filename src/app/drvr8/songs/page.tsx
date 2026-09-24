@@ -39,13 +39,20 @@ export default function Drvr8SongsPage() {
           </p>
           <nav
             aria-label="DRVR.8"
-            className="mt-6 text-sm text-neutral-500"
+            className="mt-6 flex flex-wrap items-center justify-center gap-y-2 text-sm text-neutral-500"
           >
             <a
               href="/drvr8"
               className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Home
+            </a>
+            <span className="mx-2 text-neutral-300">·</span>
+            <a
+              href="/drvr8/shows"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+            >
+              Shows
             </a>
             <span className="mx-2 text-neutral-300">·</span>
             <a

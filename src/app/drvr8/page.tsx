@@ -26,7 +26,7 @@ export default function Drvr8Page() {
           </p>
           <nav
             aria-label="DRVR.8"
-            className="mt-6 text-sm text-neutral-500"
+            className="mt-6 flex flex-wrap items-center justify-center gap-y-2 text-sm text-neutral-500"
           >
             <a
               href="/drvr8"
@@ -34,6 +34,13 @@ export default function Drvr8Page() {
               aria-current="page"
             >
               Home
+            </a>
+            <span className="mx-2 text-neutral-300">·</span>
+            <a
+              href="/drvr8/shows"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+            >
+              Shows
             </a>
             <span className="mx-2 text-neutral-300">·</span>
             <a
@@ -84,6 +91,26 @@ export default function Drvr8Page() {
               DRVR.8 is Matthew Bartone (Lead Vocals), Andrew Barash (Guitar &amp; Vocals), Rich West (Drums &amp; Vocals) and Ed Tremblay (Bass).
             </p>
           </div>
+        </section>
+
+        <section className="mx-auto mt-8 w-full max-w-md border-y border-neutral-200 py-6 text-center">
+          <h2 className="text-2xl font-semibold tracking-tight text-[#087f8c]">
+            Upcoming Shows
+          </h2>
+          <div className="mt-4 space-y-4 text-base leading-relaxed text-neutral-600">
+            <p>
+              November 14, 2026 · 9 PM · Bar Two Eleven · Bellingham, WA
+            </p>
+            <p>
+              January 9, 2027 · 8 PM · The Shakedown · Bellingham, WA
+            </p>
+          </div>
+          <a
+            href="/drvr8/shows"
+            className="mt-4 inline-block text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+          >
+            View show details and posters
+          </a>
         </section>
 
       </div>
