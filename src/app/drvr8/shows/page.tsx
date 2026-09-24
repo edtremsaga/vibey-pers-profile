@@ -34,7 +34,7 @@ export default function Drvr8ShowsPage() {
             >
               Home
             </a>
-            <span className="mx-2 text-neutral-300">·</span>
+            <span className="mx-1 text-neutral-300">·</span>
             <a
               href="/drvr8/shows"
               className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
@@ -42,28 +42,28 @@ export default function Drvr8ShowsPage() {
             >
               Shows
             </a>
-            <span className="mx-2 text-neutral-300">·</span>
+            <span className="mx-1 text-neutral-300">·</span>
             <a
               href="/drvr8/videos"
               className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Videos
             </a>
-            <span className="mx-2 text-neutral-300">·</span>
+            <span className="mx-1 text-neutral-300">·</span>
             <a
               href="/drvr8/photos"
               className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Photos
             </a>
-            <span className="mx-2 text-neutral-300">·</span>
+            <span className="mx-1 text-neutral-300">·</span>
             <a
               href="/drvr8/songs"
               className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
             >
               Songs
             </a>
-            <span className="mx-2 text-neutral-300">·</span>
+            <span className="mx-1 text-neutral-300">·</span>
             <a
               href="/drvr8/contact"
               className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
