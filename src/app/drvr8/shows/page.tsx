@@ -85,9 +85,9 @@ export default function Drvr8ShowsPage() {
                 alt="Bands Don’t Cry and DRVR.8 concert poster with red roses, railroad tracks, and a moonlit forest. Event details follow below."
                 width={1036}
                 height={1610}
-                sizes="(max-width: 328px) calc(100vw - 48px), 280px"
+                sizes="(max-width: 288px) calc(100vw - 48px), 240px"
                 priority
-                className="mx-auto h-auto w-full max-w-[280px]"
+                className="mx-auto h-auto w-full max-w-[240px]"
               />
               <div className="mt-6 text-center">
                 <h2
@@ -127,8 +127,8 @@ export default function Drvr8ShowsPage() {
                 alt="Bands Don’t Cry and DRVR.8 concert poster with red roses, shattered glass, and a dark forest. Event details follow below."
                 width={1036}
                 height={1610}
-                sizes="(max-width: 328px) calc(100vw - 48px), 280px"
-                className="mx-auto h-auto w-full max-w-[280px]"
+                sizes="(max-width: 288px) calc(100vw - 48px), 240px"
+                className="mx-auto h-auto w-full max-w-[240px]"
               />
               <div className="mt-6 text-center">
                 <h2
