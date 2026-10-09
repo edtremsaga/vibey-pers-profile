@@ -107,7 +107,7 @@ export default function Home() {
                 </li>
 
                 <li>
-                  <h3 className="text-lg font-medium">Set List Player</h3>
+                  <h3 className="text-lg font-medium">Set List Driver</h3>
                   <p className="mt-2 text-neutral-700">
                     A lightweight tool for building and playing through set lists made from YouTube videos for practice and rehearsal. It helps musicians line up songs, rehearse transitions, and move through a set without hunting for individual videos. I use it myself when preparing for gigs.
                   </p>
@@ -214,6 +214,9 @@ export default function Home() {
               </p>
 
               <ul className="space-y-4 text-neutral-700">
+                <li>
+                  <span className="text-neutral-500">October 2026</span> — Music Looper and Set List Driver — Added local-file MP3 support to Music Looper and Set List Driver, plus saved-song content filtering to Set List Driver. These updates expand the practice and rehearsal tools to work with local MP3 files and make saved songs easier to find.
+                </li>
                 <li>
                   <span className="text-neutral-500">September 2026</span> — Band websites — I built and launched websites for the two bands I play bass in: DRVR.8, an R.E.M. tribute project, and Slow Moving Bird, a Seattle original rock band. I designed the pages, organized band media and song information, connected custom domains, and set up the sites for sharing with fans. The sites give each band a home for music, videos, photos, and song information.
                   <div className="mt-1 text-sm text-neutral-500">
