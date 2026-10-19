@@ -17,10 +17,10 @@ export default function SlowMovingBirdShowsPage() {
         </h1>
         <article className="mt-8" aria-labelledby="slims-show-title">
           <Image
-            src="/slowmovingbird/slow-moving-bird-slims-october-28-2026.png"
-            alt="Slow Moving Bird concert poster featuring a bird skull in cream and red on a distressed black background. Event details follow below."
-            width={932}
-            height={1180}
+            src="/slowmovingbird/slow-moving-bird-slims-october-28-2026.png?v=2"
+            alt="Slow Moving Bird concert poster with special guests Eric David Wallace and Corduroy Fox, featuring a bird skull in cream and red on a distressed black background. Event details follow below."
+            width={634}
+            height={810}
             sizes="(max-width: 608px) calc(100vw - 48px), 560px"
             priority
             className="h-auto w-full"
