@@ -1,0 +1,399 @@
+{
+  "/": {
+    "title": "Vibey Pers Profile",
+    "text": "AI-AUGMENTED PRODUCT BUILDING Designing and building software with AI as a development partner. After decades in software product and engineering leadership, I now use AI tools to move ideas from concept to working applications. Learnings Edward Tremblay Exploring AI-augmented product development by designing and shipping software with modern AI coding tools. Currently focused on music tools and metadata-driven projects. Most projects here are active and evolving through small, frequent iterations. Selected Projects Liner Notez Album credits and liner notes for iPhone. Liner Notez helps music fans explore album releases, tracklists, credits, musicians, producers, release editions, and source links. Built with MusicBrainz and other public music metadata sources, with on-device My Library and private album notes. Available now on the Apple App Store. App Store ↗ Visit ↗ Yard Plant Inventory Mobile-first plant inventory prototype for documenting yard plants with iPhone camera capture, local-only IndexedDB storage, image previews, and a simple saved-plant grid. Built as a small, practical local-first app for maintaining a visual record of plants around the yard. GitHub ↗ Music Looper A musicians’ practice tool that makes it easy to loop specific sections of YouTube videos. Built around a real practice need: slowing down, repeating, and working through difficult parts of songs. I use it daily as part of my bass routine. Visit ↗ Set List Driver A lightweight tool for building and playing through set lists made from YouTube videos for practice and rehearsal. It helps musicians line up songs, rehearse transitions, and move through a set without hunting for individual videos. I use it myself when preparing for gigs. Visit ↗ Live Music Scout A local live-music discovery tool that tracks venue calendars and surfaces upcoming shows. Built to make it easier to follow Seattle-area venues, spot interesting gigs, and keep a lightweight weekly view of what’s coming up. GitHub ↗ Medicare Decision Tools A high-clarity decision tool focused on Medicare Part B and Part D enrollment timing. Rather than creating another broad information site, I built a narrow, rules-based web app that translates complex CMS guidance into a clear next step. The experience is intentionally simple — one decision at a time — with a concise, printable summary as the outcome. This build reflects my broader interest in using AI-assisted development to reduce complexity in real-world, high-stakes decisions. Visit ↗ Tickets Scanner Tickets Scanner is an exploratory proof of concept project to build an evaluator agent that scans ticket prices across ticket brokers. Brokers include Ticketmaster, SeatGeek and StubHub. Curious about agent design, data sourcing, and feasibility. Other Experiments Nines Golf Game to play when you and your pals are out on the links. The app keeps track of scores so the winner gets bragging rights at the end of 9 or 18 holes Visit ↗ Vibey Cat Game where an evil eagle is trying to harm a little cat. The little cat's pal comes trys to rescue the little cat. This was my first attempt at vibe coding an app. Visit ↗ BUILD LOG Short notes from recent work. Code on GitHub October 2026 — Music Looper and Set List Driver — Added local-file MP3 support to Music Looper and Set List Driver, plus saved-song content filtering to Set List Driver. These updates expand the practice and rehearsal tools to work with local MP3 files and make saved songs easier to find. September 2026 — Band websites — I built and launched websites for the two bands I play bass in: DRVR.8, an R.E.M. tribute project, and Slow Moving Bird, a Seattle original rock band. I designed the pages, organized band media and song information, connected custom domains, and set up the sites for sharing with fans. The sites give each band a home for music, videos, photos, and song information. Links: DRVR.8 · Slow Moving Bird June 2026 — Liner Notez for iPhone — Shipped version 1.0 to the Apple App Store. The app helps music fans research album credits, tracklists, release editions, producers, and liner-note-style metadata, with My Library and private on-device album notes. Apr–May 2026 — Live Music Scout: built a Seattle/Bellevue live-music event listing app prototype with venue parsers and event-ranking logic based on my taste in music. The app delivers automated nightly/weekly email and Slack reports of local music scene events. Links: GitHub March 2026 — Music Looper Set List — First Working Version — Built a lightweight set-list player for music practice and rehearsal. The tool lets musicians paste YouTube links, assemble a set list, and play songs sequentially to rehearse transitions or jam along with a prepared set. The focus was on a simple workflow: quickly assembling and playing a set list without friction. Links: Demo · GitHub Mar 2026 — Liner Notez: built an album-first music metadata prototype powered by MusicBrainz, exploring liner-note style album storytelling, metadata enrichment, and UX for hardcore music fans. Feb 2026 — Yard Plant Inventory: built a mobile-first plant inventory prototype for documenting yard plants with iPhone camera capture, local-only IndexedDB storage, image previews, and a simple saved-plant grid. Feb 2026 — Medicare Decision Tools — Shipped a narrow, rules-based web app clarifying Medicare Part B and Part D enrollment timing. Focused on translating CMS guidance into structured logic and a concise, printable outcome. Links: Demo · GitHub Jan 2026 — Developed & tested producer search for liner notez Links: Demo · GitHub Jan 2026 — Fixed mobile lightbox behavior for album art galleries. Dec 2025 — Launched this profile site as a public home for my AI-assisted app prototypes and build notes. contact: edwardktremblay@gmail.com | https://www.linkedin.com/in/edtrem/",
+    "links": [
+      "/learnings",
+      "https://apps.apple.com/us/app/liner-notez/id6773810969",
+      "https://vibey-liner-notez2.vercel.app/",
+      "https://github.com/edtremsaga/vibey-yard-app",
+      "https://vibey-looper.vercel.app/",
+      "https://vibey-set-list-player.vercel.app/",
+      "https://github.com/edtremsaga/live-music-scout",
+      "https://medicare-delay-tool.vercel.app/",
+      "https://vibey-nines.vercel.app/",
+      "https://vibeycat.vercel.app/",
+      "https://github.com/edtremsaga",
+      "https://drvr8.band",
+      "https://vibeycraft.com/slowmovingbird",
+      "https://github.com/edtremsaga/live-music-scout",
+      "https://vibey-set-list-player.vercel.app/",
+      "https://github.com/edtremsaga/vibey-set-list-2",
+      "https://medicare-delay-tool.vercel.app/",
+      "https://github.com/edtremsaga/medicare-delay-tool",
+      "https://vibey-liner-notez2.vercel.app/",
+      "https://github.com/edtremsaga/vibey-liner-notez",
+      "https://www.linkedin.com/in/edtrem/"
+    ],
+    "images": [],
+    "embeds": [],
+    "media": []
+  },
+  "/learnings": {
+    "title": "Vibey Pers Profile",
+    "text": "VIBE CODING Building small software products with AI tooling as my partner. After decades in product and engineering leadership, I now build small AI-assisted products and help teams make clearer, lower-risk product decisions under real-world constraints. Home Learnings Learnings from Building Apps Using AI Tooling 1. Experiment with AI dev environments to find what works best for you. I tried Google AI Studio, Lovable, Replit, and Cursor. I ultimately decided that Cursor & Codex were the best AI dev environments for hands-on development, ChatGPT Pro worked best as my product management and systems-thinking tool, GitHub for source control, and Vercel for app hosting and analytics. Assigning clear roles to each tool made the overall workflow much more effective. 2. Separate product thinking from code development and execution using different AI tools. I use ChatGPT Pro for product research, product planning, and PRD development. Once the product ideas are in a solid draft state, I upload them into Codex to write the code. Using two AI tools with different strengths gives me non-overlapping perspectives, which improves the quality of my product decisions. 3. Treat every prompt as a contract, not a command. For each prompt I provide to an AI dev tool, I now enforce a rule: the AI must explain back what it thinks I asked for, ask clarifying questions, and propose recommendations with pros and cons before writing code. Without these guardrails, AI tools will happily generate code that doesn't do what you intended—or worse, break functionality that was already working. 4. Do not rely on AI tools for safe code reverts. Code reverts using AI tooling do not always work well. I had instances where the dev tool did not check in with me to understand what I wanted to accomplish, then wrote code that broke the app and could not reliably back the changes out—each revert sometimes made things worse. Having clean, known-good checkpoints in GitHub that I could revert to manually saved me multiple times. 5. Understand the risks of automatic deployments. Once Vercel is wired to GitHub, every commit automatically triggers a build and deployment. This is powerful but risky if your app is already in production. It forces you to think about preview deployments, branch discipline, or pausing auto-deploys for riskier changes so you don't accidentally ship broken code to users. 6. Coding using AI tooling doesn't eliminate manual testing or debugging. Testing and debugging are still hard and for apps that are intended to have human users, manually testing the app is important to see how it actually behaves. Expect to spend significant hands-on time running your app, finding bugs, clearly describing them to the AI tool, and validating whether a proposed fix actually works. 7. Cross-device and cross-browser behavior still requires manual testing. Getting an app to run correctly across devices and browsers is challenging. For example, my apps targeted Safari and Chrome on both Mac and iPhone, yet behavior differed across each environment. So, far AI tooling doesn't remove the need for manual real-device testing. However, this area is changing rapidly with the models now being able to automate mimicing a user driving a browser based app. 8. Instrument heavily and use multiple AIs for diagnostics. I instrument apps heavily during development. Diagnostic logs become invaluable for debugging, performance tuning, and optimization. I share logs with both Codex and ChatGPT to get independent log analysis, identify potential issues, and receive recommendations on improving performance. Taking this multi-AI approach helped me produce better app outcomes.",
+    "links": [
+      "/"
+    ],
+    "images": [],
+    "embeds": [],
+    "media": []
+  },
+  "/liner-notez/privacy": {
+    "title": "Liner Notez Privacy",
+    "text": "LINER NOTEZ Album information, credits, artwork, and release metadata from public music data. Home Support Liner Notez Privacy Last updated: May 26, 2026 Overview Liner Notez is an album information and discovery app. It helps you explore album credits, tracklists, artwork, release editions, producer connections, and source links using public music data. Liner Notez does not play, stream, download, or provide music audio. Accounts and personal information Liner Notez does not require an account. The current iOS app does not intentionally collect personal information, sell personal data, show ads, or use tracking. The app does not save search history or favorites in the current iOS version. Public data sources When you search for artists, albums, or producers, Liner Notez may send those searches and selected music identifiers to public music data services so the app can return results. These services may include MusicBrainz, Cover Art Archive, Wikidata, and Wikipedia. They provide album, release, track, credit, artwork, and background-link information when available. Those third-party services may receive normal technical request information, such as your IP address and user agent, according to their own policies. Data quality Public music data may be incomplete, outdated, duplicated, or incorrect. Credits, artwork, dates, labels, and editions can vary by release and source. Liner Notez shows documented public data. It does not guess or invent credits. Contact For privacy questions, support, or feedback, contact vibeycraft@gmail.com .",
+    "links": [
+      "/",
+      "/liner-notez/support",
+      "mailto:vibeycraft@gmail.com"
+    ],
+    "images": [],
+    "embeds": [],
+    "media": []
+  },
+  "/liner-notez/support": {
+    "title": "Liner Notez Support",
+    "text": "LINER NOTEZ Support for the Liner Notez iOS app. Home Privacy Liner Notez Support Last updated: May 26, 2026 Contact For support, questions, bug reports, or feedback, email vibeycraft@gmail.com . About Liner Notez Liner Notez is an album information and discovery app. It helps you explore album credits, tracklists, artwork, release editions, producer connections, and source links using public music data. Liner Notez does not play, stream, download, or provide music audio. Data sources The app may contact public data sources such as MusicBrainz, Cover Art Archive, Wikidata, and Wikipedia to retrieve album information, artwork, credits, and related links. Public music data can be incomplete or vary by release edition, country, reissue, and source. Privacy Read the Liner Notez privacy page for more information about app data use.",
+    "links": [
+      "/",
+      "/liner-notez/privacy",
+      "mailto:vibeycraft@gmail.com",
+      "/liner-notez/privacy"
+    ],
+    "images": [],
+    "embeds": [],
+    "media": []
+  },
+  "/drvr8": {
+    "title": "DRVR.8",
+    "text": "DRVR.8 Playing the music of R.E.M., from the early IRS years. Home · Shows · Videos · Photos · Songs · Contact About DRVR.8 is a Seattle-based retrospective project capturing the raw, enigmatic energy of R.E.M.’s formative years. DRVR.8 focuses on the urgent, guitar-driven period of their 80's releases on I.R.S Records. The band made its live debut to a packed, electric crowd at the historic Central Saloon in February of 2026. The overwhelming response turned what was intended as a one-off gig into an ongoing project. Blending iconic, early alternative anthems with beloved deep cuts, DRVR.8 delivers a high-energy rock-and-roll experience celebrating the roots of college radio. DRVR.8 is Matthew Bartone (Lead Vocals), Andrew Barash (Guitar & Vocals), Rich West (Drums & Vocals) and Ed Tremblay (Bass). Upcoming Shows November 14, 2026 · 9 PM · Bar Two Eleven · Bellingham, WA January 9, 2027 · 8 PM · The Shakedown · Bellingham, WA View show details and posters",
+    "links": [
+      "/drvr8",
+      "/drvr8/shows",
+      "/drvr8/videos",
+      "/drvr8/photos",
+      "/drvr8/songs",
+      "/drvr8/contact",
+      "/drvr8/shows"
+    ],
+    "images": [
+      {
+        "src": "/_next/image?url=%2Fdrvr8%2Fdrvr8-poster-rich.png&w=3840&q=75",
+        "alt": "DRVR.8 performing live above a DRVR.8 A Tribute to R.E.M. train poster."
+      }
+    ],
+    "embeds": [],
+    "media": []
+  },
+  "/drvr8/shows": {
+    "title": "DRVR.8 Shows",
+    "text": "Playing the music of R.E.M., from the early IRS years. Home · Shows · Videos · Photos · Songs · Contact Shows DRVR.8 with Bands Don’t Cry Date and time Saturday, November 14, 2026 · Doors 8 PM · Show 9 PM Venue Bar Two Eleven · Bellingham, WA Tickets $10 advance · $15 at the show Ages 21 and over DRVR.8 with Bands Don’t Cry Date and time Saturday, January 9, 2027 · Doors 7 PM · Show 8 PM Venue The Shakedown Music Venue & Bar 1212 N State St, Bellingham, WA 98225 Tickets $12 advance · $15 day of show Ages 21 and over",
+    "links": [
+      "/drvr8",
+      "/drvr8/shows",
+      "/drvr8/videos",
+      "/drvr8/photos",
+      "/drvr8/songs",
+      "/drvr8/contact"
+    ],
+    "images": [
+      {
+        "src": "/drvr8/drvr8-poster-rich.png",
+        "alt": "DRVR.8 performing live above a DRVR.8 A Tribute to R.E.M. train poster."
+      },
+      {
+        "src": "/_next/image?url=%2Fdrvr8%2Fbands-dont-cry-bar-two-eleven-november-14-2026.png&w=3840&q=75",
+        "alt": "Bands Don’t Cry and DRVR.8 concert poster with red roses, railroad tracks, and a moonlit forest. Event details follow below."
+      },
+      {
+        "src": "/_next/image?url=%2Fdrvr8%2Fbands-dont-cry-shakedown-january-9-2027.png&w=3840&q=75",
+        "alt": "Bands Don’t Cry and DRVR.8 concert poster with red roses, shattered glass, and a dark forest. Event details follow below."
+      }
+    ],
+    "embeds": [],
+    "media": []
+  },
+  "/drvr8/videos": {
+    "title": "DRVR.8 Live Videos",
+    "text": "Home · Shows · Videos · Photos · Songs · Contact DRVR.8 Live Full Set — The Central Saloon Seattle, WA Pretty Persuasion Slim’s Last Chance · Seattle, WA · September 4, 2026 Gardening at Night Slim’s Last Chance · Seattle, WA · September 4, 2026 Fall on Me The Skylark · Seattle, WA It's the End of the World as We Know It The Skylark · Seattle, WA Gardening at Night The Skylark · Seattle, WA",
+    "links": [
+      "/drvr8",
+      "/drvr8/shows",
+      "/drvr8/videos",
+      "/drvr8/photos",
+      "/drvr8/songs",
+      "/drvr8/contact"
+    ],
+    "images": [
+      {
+        "src": "/drvr8/drvr8-poster-rich.png",
+        "alt": "DRVR.8 performing live above a DRVR.8 A Tribute to R.E.M. train poster."
+      }
+    ],
+    "embeds": [
+      "https://www.youtube.com/embed/7euWw0VrBzo",
+      "https://www.youtube.com/embed/_a4suadxWHo",
+      "https://www.youtube.com/embed/USuS5M94tTc",
+      "https://www.youtube.com/embed/0gUU8VVMUJQ",
+      "https://www.youtube.com/embed/IEdqrmrAX-E",
+      "https://www.youtube.com/embed/_jyvCezyzSE"
+    ],
+    "media": []
+  },
+  "/drvr8/photos": {
+    "title": "DRVR.8 Photos",
+    "text": "Playing the music of R.E.M., from the early IRS years. Home · Shows · Videos · Photos · Songs · Contact Live Shows Central Saloon — Seattle, WA, Spring 2026 Last Chance Saloon — Seattle, September 4, 2026 Logos",
+    "links": [
+      "/drvr8",
+      "/drvr8/shows",
+      "/drvr8/videos",
+      "/drvr8/photos",
+      "/drvr8/songs",
+      "/drvr8/contact"
+    ],
+    "images": [
+      {
+        "src": "/drvr8/drvr8-poster-rich.png",
+        "alt": "DRVR.8 performing live above a DRVR.8 A Tribute to R.E.M. train poster."
+      },
+      {
+        "src": "/_next/image?url=%2Fdrvr8%2Fcentral-saloon-band-original.jpg&w=3840&q=90",
+        "alt": "The four members of DRVR.8 together on stage under blue lights at the Central Saloon in Seattle, WA, in spring 2026."
+      },
+      {
+        "src": "/_next/image?url=%2Fdrvr8%2Flast-chance-saloon-2026-09-04.png&w=3840&q=90",
+        "alt": "All four members of DRVR.8 performing at the Last Chance Saloon in Seattle on September 4, 2026."
+      },
+      {
+        "src": "/drvr8/drvr8-logo.png",
+        "alt": "Original black-and-white DRVR.8 train logo."
+      }
+    ],
+    "embeds": [],
+    "media": []
+  },
+  "/drvr8/songs": {
+    "title": "DRVR.8 Songs",
+    "text": "Playing the music of R.E.M., from the early IRS years. Home · Shows · Videos · Photos · Songs · Contact Songs We Play Radio Free Europe Driver 8 So. Central Rain The One I Love Fall on Me It's the End of the World as We Know It (And I Feel Fine) Pretty Persuasion Begin the Begin Carnival of Sorts Finest Worksong Gardening at Night Maps and Legends Sitting Still Harborcoat Orange Crush Wolves, Lower",
+    "links": [
+      "/drvr8",
+      "/drvr8/shows",
+      "/drvr8/videos",
+      "/drvr8/photos",
+      "/drvr8/songs",
+      "/drvr8/contact"
+    ],
+    "images": [
+      {
+        "src": "/drvr8/drvr8-poster-rich.png",
+        "alt": "DRVR.8 performing live above a DRVR.8 A Tribute to R.E.M. train poster."
+      }
+    ],
+    "embeds": [],
+    "media": []
+  },
+  "/drvr8/contact": {
+    "title": "DRVR.8 Contact",
+    "text": "Playing the music of R.E.M., from the early IRS years. Home · Shows · Videos · Photos · Songs · Contact Contact edtrem@outlook.com",
+    "links": [
+      "/drvr8",
+      "/drvr8/shows",
+      "/drvr8/videos",
+      "/drvr8/photos",
+      "/drvr8/songs",
+      "/drvr8/contact",
+      "mailto:edtrem@outlook.com"
+    ],
+    "images": [
+      {
+        "src": "/drvr8/drvr8-poster-rich.png",
+        "alt": "DRVR.8 performing live above a DRVR.8 A Tribute to R.E.M. train poster."
+      }
+    ],
+    "embeds": [],
+    "media": []
+  },
+  "/slowmovingbird": {
+    "title": "Slow Moving Bird",
+    "text": "Home · Shows · Videos · Photos · Songs · Contact About the Band Slow Moving Bird is a Seattle band playing big, melodic rock songs with roots in Springsteen, Wilco, and Pearl Jam. The band released Once, In a Daydream... in 2020 and has recorded new songs at Seattle’s London Bridge Studio for a second album, coming soon. You can find their music on Apple Music, Spotify, and other streaming platforms. Band Members Gabe Sheffer Rhythm Guitar/Vocals/Songwriter Josh Cohen Lead Guitar/Backing Vocals Neel Blair Piano/Keys/Organ Paul Berkelhamer Sax/Keys Andrew Zimmerman Slide Guitar Fritz Marial Bass Guitar (Recording) Ed Tremblay Bass Guitar (Live Shows) Brian Compton Drums/Percussion Shows Wednesday, October 28, 2026 · 9 PM · Ages 21+ Slim’s Last Chance · Seattle, WA View show details and poster",
+    "links": [
+      "/slowmovingbird",
+      "/slowmovingbird/shows",
+      "/slowmovingbird/videos",
+      "/slowmovingbird/photos",
+      "/slowmovingbird/songs",
+      "/slowmovingbird/contact",
+      "/slowmovingbird/shows"
+    ],
+    "images": [
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fsmb-logo-full.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird"
+      }
+    ],
+    "embeds": [],
+    "media": []
+  },
+  "/slowmovingbird/shows": {
+    "title": "Slow Moving Bird Shows",
+    "text": "Home · Shows · Videos · Photos · Songs · Contact Shows Slow Moving Bird at Slim’s Last Chance Date and time Wednesday, October 28, 2026 · 9 PM Venue Slim’s Last Chance 5606 1st Ave S, Seattle, WA Ages 21 and over",
+    "links": [
+      "/slowmovingbird",
+      "/slowmovingbird/shows",
+      "/slowmovingbird/videos",
+      "/slowmovingbird/photos",
+      "/slowmovingbird/songs",
+      "/slowmovingbird/contact"
+    ],
+    "images": [
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fsmb-logo-full.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fslow-moving-bird-slims-october-28-2026.png%3Fv%3D2&w=3840&q=75",
+        "alt": "Slow Moving Bird concert poster with special guests Eric David Wallace and Corduroy Fox, featuring a bird skull in cream and red on a distressed black background. Event details follow below."
+      }
+    ],
+    "embeds": [],
+    "media": []
+  },
+  "/slowmovingbird/videos": {
+    "title": "Slow Moving Bird Videos",
+    "text": "Home · Shows · Videos · Photos · Songs · Contact Videos 49 Live at the Orient Express, Seattle — July 15, 2026 A Country That Makes No Sense Live at SeaMonster Lounge — Seattle Here’s To You When I Woke Up Live at SeaMonster Lounge — Seattle The Pawns That Punish The King Live at SeaMonster Lounge — Seattle",
+    "links": [
+      "/slowmovingbird",
+      "/slowmovingbird/shows",
+      "/slowmovingbird/videos",
+      "/slowmovingbird/photos",
+      "/slowmovingbird/songs",
+      "/slowmovingbird/contact"
+    ],
+    "images": [
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fsmb-logo-full.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird"
+      }
+    ],
+    "embeds": [
+      "https://www.youtube.com/embed/hSr3ahwbw6c",
+      "https://www.youtube.com/embed/yMr55lUSVok",
+      "https://www.youtube.com/embed/YD0AfMgDvtM",
+      "https://www.youtube.com/embed/tyeVwHICWf4"
+    ],
+    "media": []
+  },
+  "/slowmovingbird/photos": {
+    "title": "Slow Moving Bird Photos",
+    "text": "Home · Shows · Videos · Photos · Songs · Contact Live Shows Orient Express — Seattle, Summer 2026 Seamonster Lounge — Seattle, Spring 2026 In the Studio London Bridge Studio Summer 2026",
+    "links": [
+      "/slowmovingbird",
+      "/slowmovingbird/shows",
+      "/slowmovingbird/videos",
+      "/slowmovingbird/photos",
+      "/slowmovingbird/songs",
+      "/slowmovingbird/contact"
+    ],
+    "images": [
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fsmb-logo-full.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fslow-moving-bird-live-band.png&w=3840&q=75",
+        "alt": "Slow Moving Bird performing live at Orient Express in Seattle, summer 2026"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fslow-moving-bird-sax.jpeg&w=3840&q=75",
+        "alt": "Slow Moving Bird saxophonist performing live at Orient Express in Seattle, summer 2026"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fslow-moving-bird-guitar-vocal.jpeg&w=3840&q=75",
+        "alt": "Slow Moving Bird guitarist and vocalist performing live at Orient Express in Seattle, summer 2026"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fslow-moving-bird-sax-trumpet.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird musicians performing with saxophone and trumpet at Seamonster Lounge in Seattle, spring 2026"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fnormandy-studio-2026%2Fnormandy-studio-2026-01.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird recording at London Bridge Studio in summer 2026"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fnormandy-studio-2026%2Fnormandy-studio-2026-02.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird recording at London Bridge Studio in summer 2026"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fnormandy-studio-2026%2Fnormandy-studio-2026-03.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird recording at London Bridge Studio in summer 2026"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fnormandy-studio-2026%2Fnormandy-studio-2026-04.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird recording at London Bridge Studio in summer 2026"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fnormandy-studio-2026%2Fnormandy-studio-2026-05.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird recording at London Bridge Studio in summer 2026"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fnormandy-studio-2026%2Fnormandy-studio-2026-06.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird recording at London Bridge Studio in summer 2026"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fnormandy-studio-2026%2Flondon-bridge-studio-2026-07.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird guitarist recording at London Bridge Studio in summer 2026"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fnormandy-studio-2026%2Flondon-bridge-studio-2026-08.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird recording at London Bridge Studio in summer 2026"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fphotos%2Fnormandy-studio-2026%2Flondon-bridge-studio-2026-10.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird at London Bridge Studio in summer 2026"
+      }
+    ],
+    "embeds": [],
+    "media": []
+  },
+  "/slowmovingbird/songs": {
+    "title": "Slow Moving Bird Songs",
+    "text": "Home · Shows · Videos · Photos · Songs · Contact Songs Who Killed Biggie Smalls Miss Communication 49 Penitentiary A Country That Makes No Sense The Pawns That Punish The King Level Set Zero Contact Walkin On Water Mookie Betts Here’s To You When I Woke Up Ramifications",
+    "links": [
+      "/slowmovingbird",
+      "/slowmovingbird/shows",
+      "/slowmovingbird/videos",
+      "/slowmovingbird/photos",
+      "/slowmovingbird/songs",
+      "/slowmovingbird/contact"
+    ],
+    "images": [
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fsmb-logo-full.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird"
+      }
+    ],
+    "embeds": [],
+    "media": []
+  },
+  "/slowmovingbird/contact": {
+    "title": "Slow Moving Bird Contact",
+    "text": "Home · Shows · Videos · Photos · Songs · Contact Contact gabe@slowmovingbird.com",
+    "links": [
+      "/slowmovingbird",
+      "/slowmovingbird/shows",
+      "/slowmovingbird/videos",
+      "/slowmovingbird/photos",
+      "/slowmovingbird/songs",
+      "/slowmovingbird/contact",
+      "mailto:gabe@slowmovingbird.com"
+    ],
+    "images": [
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fsmb-logo-full.jpg&w=3840&q=75",
+        "alt": "Slow Moving Bird"
+      }
+    ],
+    "embeds": [],
+    "media": []
+  }
+}
