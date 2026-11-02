@@ -75,7 +75,7 @@ export default function Drvr8ShowsPage() {
 
         <section className="mx-auto mt-10 w-full max-w-xl">
           <h1 className="text-center text-4xl font-semibold tracking-tight text-[#087f8c]">
-            Shows
+            Upcoming Shows
           </h1>
 
           <div className="mt-8 space-y-14">
@@ -166,6 +166,32 @@ export default function Drvr8ShowsPage() {
               </div>
             </article>
           </div>
+
+          <section className="mt-16 border-t border-neutral-200 pt-12" aria-labelledby="past-shows">
+            <h2
+              id="past-shows"
+              className="text-center text-3xl font-semibold tracking-tight text-[#087f8c]"
+            >
+              Past Shows
+            </h2>
+            <ul className="mx-auto mt-7 max-w-md space-y-4 text-center text-base leading-relaxed text-neutral-700">
+              <li>
+                <span className="font-semibold text-neutral-900">Central Saloon</span>
+                <br />
+                Seattle · February 21, 2026
+              </li>
+              <li>
+                <span className="font-semibold text-neutral-900">The Skylark</span>
+                <br />
+                Seattle · July 2026
+              </li>
+              <li>
+                <span className="font-semibold text-neutral-900">Slim’s Last Chance</span>
+                <br />
+                Seattle · September 4, 2026
+              </li>
+            </ul>
+          </section>
         </section>
       </div>
     </main>

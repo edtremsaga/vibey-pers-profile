@@ -63,3 +63,9 @@ For OneDrive or other synchronization issues, preserve the checkout and diagnose
 ## Policy Scope
 
 This project workflow replaces the previous blanket requirement to explain and wait before every code change. It permits routine requested work while preserving explicit approval for publishing, destructive actions, and consequential exceptions. Other applicable safety instructions remain in effect.
+
+## Validation Scope
+
+For a true copy-only edit that changes only visible text and does not change HTML or JSX structure, CSS classes, links, metadata, configuration, data flow, or application logic, use repository identity verification, `git diff --check`, and lint as the default validation. Do not run a production build or browser preview unless the user requests it or the change presents a credible layout or behavioral risk.
+
+Use broader validation when an edit changes markup, styling, navigation, assets, dependencies, configuration, or runtime behavior.
