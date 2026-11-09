@@ -143,6 +143,29 @@ export default function Drvr8VideosPage() {
         </header>
 
         <div className="mt-10 space-y-12">
+          <section className="space-y-4">
+            <div className="text-center">
+              <h2 className="text-2xl font-semibold tracking-tight text-[#087f8c]">
+                Live at the Central Saloon
+              </h2>
+              <p className="mt-1 text-base leading-relaxed text-neutral-500">
+                Promo video · Seattle, WA
+              </p>
+            </div>
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              aria-label="DRVR.8 Central Saloon performance promo"
+              className="mx-auto h-auto w-full max-w-[360px] bg-black"
+            >
+              <source src="/drvr8/central-saloon-promo.mp4" type="video/mp4" />
+              <a href="/drvr8/central-saloon-promo.mp4">
+                Watch the Central Saloon promo video
+              </a>
+            </video>
+          </section>
+
           <VideoEmbed
             title={featuredVideo.title}
             location={featuredVideo.location}
