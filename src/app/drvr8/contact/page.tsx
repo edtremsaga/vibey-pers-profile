@@ -138,6 +138,14 @@ export default function Drvr8ContactPage() {
             >
               edtrem@outlook.com
             </a>
+            <p className="mt-2">
+              <a
+                href="mailto:takeabreakdrvr8@gmail.com"
+                className="text-xl text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+              >
+                takeabreakdrvr8@gmail.com
+              </a>
+            </p>
             <p className="mt-4 text-base leading-relaxed text-neutral-600">
               Please include the venue, city, proposed date, set length, and any
               production details.
