@@ -79,49 +79,7 @@ export default function Drvr8ShowsPage() {
           </h1>
 
           <div className="mt-8 space-y-14">
-            <article aria-labelledby="bar-two-eleven-show">
-              <Image
-                src="/drvr8/bands-dont-cry-bar-two-eleven-november-14-2026.png"
-                alt="Bands Don’t Cry and DRVR.8 concert poster with red roses, railroad tracks, and a moonlit forest. Event details follow below."
-                width={1036}
-                height={1610}
-                sizes="(max-width: 288px) calc(100vw - 48px), 240px"
-                priority
-                className="mx-auto h-auto w-full max-w-[240px]"
-              />
-              <div className="mt-6 text-center">
-                <h2
-                  id="bar-two-eleven-show"
-                  className="text-2xl font-semibold tracking-tight text-[#087f8c]"
-                >
-                  DRVR.8 with Bands Don’t Cry
-                </h2>
-                <dl className="mt-5 space-y-4 text-base leading-relaxed text-neutral-700">
-                  <div>
-                    <dt className="font-semibold text-neutral-900">Date and time</dt>
-                    <dd>
-                      <time dateTime="2026-11-14T21:00:00-08:00">
-                        Saturday, November 14, 2026 · Doors 8 PM · Show 9 PM
-                      </time>
-                    </dd>
-                  </div>
-                  <div>
-                    <dt className="font-semibold text-neutral-900">Venue</dt>
-                    <dd>Bar Two Eleven · Bellingham, WA</dd>
-                  </div>
-                  <div>
-                    <dt className="font-semibold text-neutral-900">Tickets</dt>
-                    <dd>$10 advance · $15 at the show</dd>
-                  </div>
-                  <div>
-                    <dt className="font-semibold text-neutral-900">Ages</dt>
-                    <dd>21 and over</dd>
-                  </div>
-                </dl>
-              </div>
-            </article>
-
-            <article className="border-t border-neutral-200 pt-14" aria-labelledby="shakedown-show">
+            <article aria-labelledby="shakedown-show">
               <Image
                 src="/drvr8/bands-dont-cry-shakedown-january-9-2027.png"
                 alt="Bands Don’t Cry and DRVR.8 concert poster with red roses, shattered glass, and a dark forest. Event details follow below."
@@ -174,6 +132,47 @@ export default function Drvr8ShowsPage() {
             >
               Past Shows
             </h2>
+            <article className="mt-8" aria-labelledby="bar-two-eleven-show">
+              <Image
+                src="/drvr8/bands-dont-cry-bar-two-eleven-november-14-2026.png"
+                alt="Bands Don’t Cry and DRVR.8 concert poster with red roses, railroad tracks, and a moonlit forest. Event details follow below."
+                width={1036}
+                height={1610}
+                sizes="(max-width: 288px) calc(100vw - 48px), 240px"
+                className="mx-auto h-auto w-full max-w-[240px]"
+              />
+              <div className="mt-6 text-center">
+                <h3
+                  id="bar-two-eleven-show"
+                  className="text-2xl font-semibold tracking-tight text-[#087f8c]"
+                >
+                  DRVR.8 with Bands Don’t Cry
+                </h3>
+                <dl className="mt-5 space-y-4 text-base leading-relaxed text-neutral-700">
+                  <div>
+                    <dt className="font-semibold text-neutral-900">Date and time</dt>
+                    <dd>
+                      <time dateTime="2026-11-14T21:00:00-08:00">
+                        Saturday, November 14, 2026 · Doors 8 PM · Show 9 PM
+                      </time>
+                    </dd>
+                  </div>
+                  <div>
+                    <dt className="font-semibold text-neutral-900">Venue</dt>
+                    <dd>Bar Two Eleven · Bellingham, WA</dd>
+                  </div>
+                  <div>
+                    <dt className="font-semibold text-neutral-900">Tickets</dt>
+                    <dd>$10 advance · $15 at the show</dd>
+                  </div>
+                  <div>
+                    <dt className="font-semibold text-neutral-900">Ages</dt>
+                    <dd>21 and over</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+
             <ul className="mx-auto mt-7 max-w-md space-y-4 text-center text-base leading-relaxed text-neutral-700">
               <li>
                 <span className="font-semibold text-neutral-900">Central Saloon</span>

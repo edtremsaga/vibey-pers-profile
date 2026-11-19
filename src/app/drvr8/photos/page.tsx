@@ -93,7 +93,7 @@ export default function Drvr8PhotosPage() {
           <figure className="mt-6">
             <Image
               src="/drvr8/last-chance-saloon-2026-09-04.png"
-              alt="All four members of DRVR.8 performing at the Last Chance Saloon in Seattle on September 4, 2026."
+              alt="All four members of DRVR.8 performing at Slim’s Last Chance Saloon in Seattle on September 4, 2026."
               width={1404}
               height={1120}
               quality={90}
@@ -101,7 +101,7 @@ export default function Drvr8PhotosPage() {
               className="h-auto w-full"
             />
             <figcaption className="mt-3 text-sm text-neutral-700">
-              Last Chance Saloon — Seattle, September 4, 2026
+              Slim’s Last Chance Saloon — Seattle, September 4, 2026
             </figcaption>
           </figure>
           <section className="mt-12 border-t border-neutral-200 pt-10">
@@ -115,6 +115,14 @@ export default function Drvr8PhotosPage() {
               height={308}
               unoptimized
               className="mx-auto mt-6 h-auto w-full max-w-[280px]"
+            />
+            <Image
+              src="/drvr8/drvr8-train-banner-logo.png"
+              alt="DRVR.8 — A Tribute to R.E.M. banner logo with cream lettering, an orange 8, and a train approaching through a dark forest."
+              width={1556}
+              height={690}
+              unoptimized
+              className="mx-auto mt-8 h-auto w-full"
             />
           </section>
         </section>

@@ -99,9 +99,6 @@ export default function Drvr8Page() {
           </h2>
           <div className="mt-4 space-y-4 text-base leading-relaxed text-neutral-600">
             <p>
-              November 14, 2026 · 9 PM · Bar Two Eleven · Bellingham, WA
-            </p>
-            <p>
               January 9, 2027 · 8 PM · The Shakedown · Bellingham, WA
             </p>
           </div>
@@ -111,6 +108,27 @@ export default function Drvr8Page() {
           >
             View show details and posters
           </a>
+        </section>
+
+        <section className="mx-auto mt-8 w-full max-w-md text-center">
+          <h2 className="text-xl font-semibold tracking-tight text-[#087f8c]">
+            Follow DRVR.8 on social media
+          </h2>
+          <p className="mt-3 text-base">
+            <a
+              href="https://www.facebook.com/profile.php?id=61573335818180"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+            >
+              Facebook
+            </a>
+            <span className="mx-2 text-neutral-300">·</span>
+            <a
+              href="https://www.instagram.com/drvr8.8/"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+            >
+              Instagram
+            </a>
+          </p>
         </section>
 
       </div>
