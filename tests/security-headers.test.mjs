@@ -19,15 +19,21 @@ test('protects every route without blocking existing scripts and media', async (
   assert.equal(config.poweredByHeader, false);
 });
 
-test('preserves the existing DRVR.8 hostname rewrite', async () => {
+test('routes the band domains to their respective homepages', async () => {
   const rules = await config.rewrites();
-  assert.equal(rules.beforeFiles.length, 1);
-  const rule = rules.beforeFiles[0];
-  assert.equal(rule.source, '/');
-  assert.equal(rule.destination, '/drvr8');
-  assert.equal(rule.has[0].type, 'host');
-  assert.ok(new RegExp(`^${rule.has[0].value}$`).test('drvr8.band'));
-  assert.ok(!new RegExp(`^${rule.has[0].value}$`).test('www.vibeycraft.com'));
+  assert.equal(rules.beforeFiles.length, 2);
+
+  for (const [host, destination] of [
+    ['drvr8.band', '/drvr8'],
+    ['slowmovingbird.band', '/slowmovingbird'],
+  ]) {
+    const rule = rules.beforeFiles.find(candidate => candidate.destination === destination);
+    assert.ok(rule, `Missing rewrite for ${host}`);
+    assert.equal(rule.source, '/');
+    assert.equal(rule.has[0].type, 'host');
+    assert.ok(new RegExp(`^${rule.has[0].value}$`).test(host));
+    assert.ok(!new RegExp(`^${rule.has[0].value}$`).test('www.vibeycraft.com'));
+  }
 });
 
 test('allows the existing versioned poster and keeps other image queries restricted', () => {

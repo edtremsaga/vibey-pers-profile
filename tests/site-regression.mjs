@@ -76,11 +76,16 @@ for (const a of links) {
   assert.ok(r.status >= 200 && r.status < 400, `Internal link ${a}: ${r.status}`);
   await r.arrayBuffer();
 }
-for (const host of ['drvr8.band', 'vibeycraft.com', 'www.vibeycraft.com']) {
+for (const host of ['drvr8.band', 'slowmovingbird.band', 'vibeycraft.com', 'www.vibeycraft.com']) {
   const r = await get('/', { headers: { Host: host } });
   assert.equal(r.status, 200, `Host ${host}`);
   const actual = snapshot(await r.text());
-  assert.deepEqual(actual, snapshots[host === 'drvr8.band' ? '/drvr8' : '/'], `Host routing ${host}`);
+  const expectedPath = host === 'drvr8.band'
+    ? '/drvr8'
+    : host === 'slowmovingbird.band'
+      ? '/slowmovingbird'
+      : '/';
+  assert.deepEqual(actual, snapshots[expectedPath], `Host routing ${host}`);
 }
 // Exercise a small cold derivative and reject unsupported image inputs.
 for (const [path, status] of [
@@ -98,4 +103,4 @@ if (baseline) {
   if (capture) await writeFile(baseline, JSON.stringify(snapshots, null, 2));
   else assert.deepEqual(snapshots, JSON.parse(await readFile(baseline, 'utf8')), 'Page content/links/images/embeds changed from baseline');
 }
-console.log(JSON.stringify({ passed: true, pages, assetChecks, internalLinks: links.size, hostnameChecks: 3, imagePolicyChecks: 4, securityHeaders: security, baseline: baseline ? (capture ? 'captured' : 'identical') : 'not supplied' }, null, 2));
+console.log(JSON.stringify({ passed: true, pages, assetChecks, internalLinks: links.size, hostnameChecks: 4, imagePolicyChecks: 4, securityHeaders: security, baseline: baseline ? (capture ? 'captured' : 'identical') : 'not supplied' }, null, 2));

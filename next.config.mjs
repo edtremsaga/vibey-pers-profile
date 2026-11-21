@@ -47,6 +47,11 @@ const nextConfig = {
           has: [{ type: 'host', value: 'drvr8\\.band' }],
           destination: '/drvr8',
         },
+        {
+          source: '/',
+          has: [{ type: 'host', value: 'slowmovingbird\\.band' }],
+          destination: '/slowmovingbird',
+        },
       ],
     };
   },
