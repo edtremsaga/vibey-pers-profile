@@ -27,6 +27,36 @@ export default function SlowMovingBirdPage() {
             other streaming platforms.
           </p>
         </div>
+        <section className="mx-auto mt-8 max-w-md" aria-labelledby="music-social">
+          <h2
+            id="music-social"
+            className="text-center text-2xl font-semibold tracking-tight text-[#087f8c]"
+          >
+            Music &amp; Social
+          </h2>
+          <p className="mt-4 text-base">
+            <a
+              href="https://music.apple.com/us/album/once-in-a-daydream/1542117499"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+            >
+              Apple Music
+            </a>
+            <span className="mx-2 text-neutral-300">·</span>
+            <a
+              href="https://open.spotify.com/artist/1kcw9lACARZIdln9Dx2YDz"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+            >
+              Spotify
+            </a>
+            <span className="mx-2 text-neutral-300">·</span>
+            <a
+              href="https://www.instagram.com/slowmovingbirdband/"
+              className="text-[#087f8c] underline underline-offset-4 hover:text-[#a32987]"
+            >
+              Instagram
+            </a>
+          </p>
+        </section>
         <div className="mx-auto mt-8 max-w-md text-left">
           <h2 className="text-center text-2xl font-semibold tracking-tight text-[#087f8c]">
             Band Members
