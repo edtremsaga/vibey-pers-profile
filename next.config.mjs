@@ -19,6 +19,9 @@ const slowMovingBirdHost = [{ type: 'host', value: 'slowmovingbird\\.band' }];
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    agentUpgrade: 'security',
+  },
   images: {
     qualities: [75, 90],
     localPatterns: [
