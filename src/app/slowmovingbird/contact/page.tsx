@@ -61,14 +61,20 @@ export default function SlowMovingBirdContactPage() {
           >
             View more live performance photos and videos
           </a>
-          <Image
-            src="/slowmovingbird/slow-moving-bird-live-vocalist.png"
-            alt="Slow Moving Bird vocalist performing live onstage."
-            width={538}
-            height={738}
-            sizes="(max-width: 348px) calc(100vw - 48px), 300px"
-            className="mx-auto mt-8 h-auto w-full max-w-[300px]"
-          />
+          <figure className="mx-auto mt-8 w-full max-w-[300px]">
+            <Image
+              src="/slowmovingbird/slow-moving-bird-live-vocalist.png"
+              alt="Gabe Sheffer singing with Slow Moving Bird at Slim’s Last Chance Saloon in Seattle."
+              width={538}
+              height={738}
+              sizes="(max-width: 348px) calc(100vw - 48px), 300px"
+              className="h-auto w-full"
+            />
+            <figcaption className="mt-3 text-sm leading-relaxed text-neutral-500">
+              Gabe Sheffer singing live at Slim’s Last Chance Saloon in Seattle ·
+              October 28, 2026
+            </figcaption>
+          </figure>
         </section>
 
         <section

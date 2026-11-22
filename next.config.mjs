@@ -14,6 +14,9 @@ const reportOnlyCsp = [
   "frame-ancestors 'none'",
 ].join('; ');
 
+const slowMovingBirdPages = ['shows', 'videos', 'photos', 'songs', 'contact'];
+const slowMovingBirdHost = [{ type: 'host', value: 'slowmovingbird\\.band' }];
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -49,11 +52,32 @@ const nextConfig = {
         },
         {
           source: '/',
-          has: [{ type: 'host', value: 'slowmovingbird\\.band' }],
+          has: slowMovingBirdHost,
           destination: '/slowmovingbird',
         },
+        ...slowMovingBirdPages.map(path => ({
+          source: `/${path}`,
+          has: slowMovingBirdHost,
+          destination: `/slowmovingbird/${path}`,
+        })),
       ],
     };
+  },
+  async redirects() {
+    return [
+      {
+        source: '/slowmovingbird',
+        has: slowMovingBirdHost,
+        destination: '/',
+        permanent: true,
+      },
+      ...slowMovingBirdPages.map(path => ({
+        source: `/slowmovingbird/${path}`,
+        has: slowMovingBirdHost,
+        destination: `/${path}`,
+        permanent: true,
+      })),
+    ];
   },
 };
 

@@ -19,9 +19,9 @@ test('protects every route without blocking existing scripts and media', async (
   assert.equal(config.poweredByHeader, false);
 });
 
-test('routes the band domains to their respective homepages', async () => {
+test('routes the band domains and exposes clean Slow Moving Bird URLs', async () => {
   const rules = await config.rewrites();
-  assert.equal(rules.beforeFiles.length, 2);
+  assert.equal(rules.beforeFiles.length, 7);
 
   for (const [host, destination] of [
     ['drvr8.band', '/drvr8'],
@@ -33,6 +33,31 @@ test('routes the band domains to their respective homepages', async () => {
     assert.equal(rule.has[0].type, 'host');
     assert.ok(new RegExp(`^${rule.has[0].value}$`).test(host));
     assert.ok(!new RegExp(`^${rule.has[0].value}$`).test('www.vibeycraft.com'));
+  }
+
+  for (const path of ['shows', 'videos', 'photos', 'songs', 'contact']) {
+    const rule = rules.beforeFiles.find(candidate => candidate.source === `/${path}`);
+    assert.ok(rule, `Missing clean rewrite for /${path}`);
+    assert.equal(rule.destination, `/slowmovingbird/${path}`);
+    assert.ok(new RegExp(`^${rule.has[0].value}$`).test('slowmovingbird.band'));
+  }
+
+  const redirects = await config.redirects();
+  assert.equal(redirects.length, 6);
+  assert.deepEqual(
+    redirects.map(rule => [rule.source, rule.destination]),
+    [
+      ['/slowmovingbird', '/'],
+      ['/slowmovingbird/shows', '/shows'],
+      ['/slowmovingbird/videos', '/videos'],
+      ['/slowmovingbird/photos', '/photos'],
+      ['/slowmovingbird/songs', '/songs'],
+      ['/slowmovingbird/contact', '/contact'],
+    ],
+  );
+  for (const rule of redirects) {
+    assert.equal(rule.permanent, true);
+    assert.ok(new RegExp(`^${rule.has[0].value}$`).test('slowmovingbird.band'));
   }
 });
 

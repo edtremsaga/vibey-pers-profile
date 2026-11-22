@@ -66,7 +66,7 @@
   },
   "/drvr8": {
     "title": "DRVR.8",
-    "text": "DRVR.8 Playing the music of R.E.M., from the early IRS years. Home · Shows · Videos · Photos · Songs · Contact About DRVR.8 is a Seattle-based retrospective project capturing the raw, enigmatic energy of R.E.M.’s formative years. DRVR.8 focuses on the urgent, guitar-driven period of their 80's releases on I.R.S Records. The band made its live debut to a packed, electric crowd at the historic Central Saloon in February of 2026. The overwhelming response turned what was intended as a one-off gig into an ongoing project. Blending iconic, early alternative anthems with beloved deep cuts, DRVR.8 delivers a high-energy rock-and-roll experience celebrating the roots of college radio. DRVR.8 is Matthew Bartone (Lead Vocals), Andrew Barash (Guitar & Vocals), Rich West (Drums & Vocals) and Ed Tremblay (Bass). Upcoming Shows November 14, 2026 · 9 PM · Bar Two Eleven · Bellingham, WA January 9, 2027 · 8 PM · The Shakedown · Bellingham, WA View show details and posters",
+    "text": "DRVR.8 Playing the music of R.E.M., from the early IRS years. Home · Shows · Videos · Photos · Songs · Contact About DRVR.8 is a Seattle-based retrospective project capturing the raw, enigmatic energy of R.E.M.’s formative years. DRVR.8 focuses on the urgent, guitar-driven period of their 80's releases on I.R.S Records. The band made its live debut to a packed, electric crowd at the historic Central Saloon in February of 2026. The overwhelming response turned what was intended as a one-off gig into an ongoing project. Blending iconic, early alternative anthems with beloved deep cuts, DRVR.8 delivers a high-energy rock-and-roll experience celebrating the roots of college radio. DRVR.8 is Matthew Bartone (Lead Vocals), Andrew Barash (Guitar & Vocals), Rich West (Drums & Vocals) and Ed Tremblay (Bass). Upcoming Shows January 9, 2027 · 8 PM · The Shakedown · Bellingham, WA View show details and posters Follow DRVR.8 on social media Facebook · Instagram",
     "links": [
       "/drvr8",
       "/drvr8/shows",
@@ -74,7 +74,9 @@
       "/drvr8/photos",
       "/drvr8/songs",
       "/drvr8/contact",
-      "/drvr8/shows"
+      "/drvr8/shows",
+      "https://www.facebook.com/profile.php?id=61573335818180",
+      "https://www.instagram.com/drvr8.8/"
     ],
     "images": [
       {
@@ -87,7 +89,7 @@
   },
   "/drvr8/shows": {
     "title": "DRVR.8 Shows",
-    "text": "Playing the music of R.E.M., from the early IRS years. Home · Shows · Videos · Photos · Songs · Contact Shows DRVR.8 with Bands Don’t Cry Date and time Saturday, November 14, 2026 · Doors 8 PM · Show 9 PM Venue Bar Two Eleven · Bellingham, WA Tickets $10 advance · $15 at the show Ages 21 and over DRVR.8 with Bands Don’t Cry Date and time Saturday, January 9, 2027 · Doors 7 PM · Show 8 PM Venue The Shakedown Music Venue & Bar 1212 N State St, Bellingham, WA 98225 Tickets $12 advance · $15 day of show Ages 21 and over",
+    "text": "Playing the music of R.E.M., from the early IRS years. Home · Shows · Videos · Photos · Songs · Contact Upcoming Shows DRVR.8 with Bands Don’t Cry Date and time Saturday, January 9, 2027 · Doors 7 PM · Show 8 PM Venue The Shakedown Music Venue & Bar 1212 N State St, Bellingham, WA 98225 Tickets $12 advance · $15 day of show Ages 21 and over Past Shows DRVR.8 with Bands Don’t Cry Date and time Saturday, November 14, 2026 · Doors 8 PM · Show 9 PM Venue Bar Two Eleven · Bellingham, WA Tickets $10 advance · $15 at the show Ages 21 and over Central Saloon Seattle · February 21, 2026 The Skylark Seattle · July 2026 Slim’s Last Chance Seattle · September 4, 2026",
     "links": [
       "/drvr8",
       "/drvr8/shows",
@@ -102,12 +104,12 @@
         "alt": "DRVR.8 performing live above a DRVR.8 A Tribute to R.E.M. train poster."
       },
       {
-        "src": "/_next/image?url=%2Fdrvr8%2Fbands-dont-cry-bar-two-eleven-november-14-2026.png&w=3840&q=75",
-        "alt": "Bands Don’t Cry and DRVR.8 concert poster with red roses, railroad tracks, and a moonlit forest. Event details follow below."
-      },
-      {
         "src": "/_next/image?url=%2Fdrvr8%2Fbands-dont-cry-shakedown-january-9-2027.png&w=3840&q=75",
         "alt": "Bands Don’t Cry and DRVR.8 concert poster with red roses, shattered glass, and a dark forest. Event details follow below."
+      },
+      {
+        "src": "/_next/image?url=%2Fdrvr8%2Fbands-dont-cry-bar-two-eleven-november-14-2026.png&w=3840&q=75",
+        "alt": "Bands Don’t Cry and DRVR.8 concert poster with red roses, railroad tracks, and a moonlit forest. Event details follow below."
       }
     ],
     "embeds": [],
@@ -115,14 +117,15 @@
   },
   "/drvr8/videos": {
     "title": "DRVR.8 Live Videos",
-    "text": "Home · Shows · Videos · Photos · Songs · Contact DRVR.8 Live Full Set — The Central Saloon Seattle, WA Pretty Persuasion Slim’s Last Chance · Seattle, WA · September 4, 2026 Gardening at Night Slim’s Last Chance · Seattle, WA · September 4, 2026 Fall on Me The Skylark · Seattle, WA It's the End of the World as We Know It The Skylark · Seattle, WA Gardening at Night The Skylark · Seattle, WA",
+    "text": "Home · Shows · Videos · Photos · Songs · Contact DRVR.8 Live Live at the Central Saloon Promo video · Seattle, WA Watch the Central Saloon promo video Full Set — The Central Saloon Seattle, WA Pretty Persuasion Slim’s Last Chance · Seattle, WA · September 4, 2026 Gardening at Night Slim’s Last Chance · Seattle, WA · September 4, 2026 Fall on Me The Skylark · Seattle, WA It's the End of the World as We Know It The Skylark · Seattle, WA Gardening at Night The Skylark · Seattle, WA",
     "links": [
       "/drvr8",
       "/drvr8/shows",
       "/drvr8/videos",
       "/drvr8/photos",
       "/drvr8/songs",
-      "/drvr8/contact"
+      "/drvr8/contact",
+      "/drvr8/central-saloon-promo.mp4"
     ],
     "images": [
       {
@@ -138,11 +141,13 @@
       "https://www.youtube.com/embed/IEdqrmrAX-E",
       "https://www.youtube.com/embed/_jyvCezyzSE"
     ],
-    "media": []
+    "media": [
+      "/drvr8/central-saloon-promo.mp4"
+    ]
   },
   "/drvr8/photos": {
     "title": "DRVR.8 Photos",
-    "text": "Playing the music of R.E.M., from the early IRS years. Home · Shows · Videos · Photos · Songs · Contact Live Shows Central Saloon — Seattle, WA, Spring 2026 Last Chance Saloon — Seattle, September 4, 2026 Logos",
+    "text": "Playing the music of R.E.M., from the early IRS years. Home · Shows · Videos · Photos · Songs · Contact Live Shows Central Saloon — Seattle, WA, Spring 2026 Slim’s Last Chance Saloon — Seattle, September 4, 2026 Logos",
     "links": [
       "/drvr8",
       "/drvr8/shows",
@@ -162,11 +167,15 @@
       },
       {
         "src": "/_next/image?url=%2Fdrvr8%2Flast-chance-saloon-2026-09-04.png&w=3840&q=90",
-        "alt": "All four members of DRVR.8 performing at the Last Chance Saloon in Seattle on September 4, 2026."
+        "alt": "All four members of DRVR.8 performing at Slim’s Last Chance Saloon in Seattle on September 4, 2026."
       },
       {
         "src": "/drvr8/drvr8-logo.png",
         "alt": "Original black-and-white DRVR.8 train logo."
+      },
+      {
+        "src": "/drvr8/drvr8-train-banner-logo.png",
+        "alt": "DRVR.8 — A Tribute to R.E.M. banner logo with cream lettering, an orange 8, and a train approaching through a dark forest."
       }
     ],
     "embeds": [],
@@ -193,8 +202,8 @@
     "media": []
   },
   "/drvr8/contact": {
-    "title": "DRVR.8 Contact",
-    "text": "Playing the music of R.E.M., from the early IRS years. Home · Shows · Videos · Photos · Songs · Contact Contact edtrem@outlook.com",
+    "title": "DRVR.8 Booking & Contact",
+    "text": "Home · Shows · Videos · Photos · Songs · Contact Booking & Contact DRVR.8 is a Seattle-based, four-piece R.E.M. tribute band celebrating the raw energy of their early I.R.S. years. DRVR.8 Promotional Video Performance footage from DRVR.8’s inaugural gig at the historic Central Saloon · Seattle, WA Watch the Central Saloon promo video Watch a separate full-set recording of the inaugural gig at the Central Saloon Book DRVR.8 Available for 60-minute sets at venues from Portland through Seattle to Bellingham. Opening slots and co-bills welcome. For booking and promoter inquiries, contact Ed Tremblay: edtrem@outlook.com takeabreakdrvr8@gmail.com Please include the venue, city, proposed date, set length, and any production details. Promotional materials Download band photo Download black-and-white logo Download train banner logo More band photos & live videos Follow DRVR.8 on social media Facebook · Instagram",
     "links": [
       "/drvr8",
       "/drvr8/shows",
@@ -202,20 +211,36 @@
       "/drvr8/photos",
       "/drvr8/songs",
       "/drvr8/contact",
-      "mailto:edtrem@outlook.com"
+      "/drvr8/central-saloon-promo.mp4",
+      "https://www.youtube.com/watch?v=7euWw0VrBzo",
+      "https://www.youtube.com/watch?v=7euWw0VrBzo",
+      "mailto:edtrem@outlook.com",
+      "mailto:takeabreakdrvr8@gmail.com",
+      "/drvr8/last-chance-saloon-2026-09-04.png",
+      "/drvr8/drvr8-logo.png",
+      "/drvr8/drvr8-train-banner-logo.png",
+      "https://photos.google.com/share/AF1QipPsMkXC1ZR9UNbB74Yvg8hHriS9ptY_ckqRareLH32TxRivUGXWeuf4GrfdaS7LYg?key=QVNhaTVPRmxEQmhrNVhjdGhtbTVrSjdSOWxFZThB",
+      "https://www.facebook.com/profile.php?id=61573335818180",
+      "https://www.instagram.com/drvr8.8/"
     ],
     "images": [
       {
-        "src": "/drvr8/drvr8-poster-rich.png",
-        "alt": "DRVR.8 performing live above a DRVR.8 A Tribute to R.E.M. train poster."
+        "src": "/_next/image?url=%2Fdrvr8%2Flast-chance-saloon-2026-09-04.png&w=3840&q=75",
+        "alt": "All four members of DRVR.8 performing at Slim’s Last Chance Saloon in Seattle."
+      },
+      {
+        "src": "/_next/image?url=%2Fdrvr8%2Fcentral-saloon-full-set-thumbnail.jpg&w=3840&q=75",
+        "alt": "DRVR.8 performing onstage at the Central Saloon with the audience in the foreground."
       }
     ],
     "embeds": [],
-    "media": []
+    "media": [
+      "/drvr8/central-saloon-promo.mp4"
+    ]
   },
   "/slowmovingbird": {
     "title": "Slow Moving Bird",
-    "text": "Home · Shows · Videos · Photos · Songs · Contact About the Band Slow Moving Bird is a Seattle band playing big, melodic rock songs with roots in Springsteen, Wilco, and Pearl Jam. The band released Once, In a Daydream... in 2020 and has recorded new songs at Seattle’s London Bridge Studio for a second album, coming soon. You can find their music on Apple Music, Spotify, and other streaming platforms. Band Members Gabe Sheffer Rhythm Guitar/Vocals/Songwriter Josh Cohen Lead Guitar/Backing Vocals Neel Blair Piano/Keys/Organ Paul Berkelhamer Sax/Keys Andrew Zimmerman Slide Guitar Fritz Marial Bass Guitar (Recording) Ed Tremblay Bass Guitar (Live Shows) Brian Compton Drums/Percussion Shows Wednesday, October 28, 2026 · 9 PM · Ages 21+ Slim’s Last Chance · Seattle, WA View show details and poster",
+    "text": "Home · Shows · Videos · Photos · Songs · Contact About the Band Slow Moving Bird is a Seattle band playing big, melodic rock songs with roots in Springsteen, Wilco, and Pearl Jam. The band released Once, In a Daydream... in 2020 and has recorded new songs at Seattle’s London Bridge Studio for a second album, coming soon. You can find their music on Apple Music, Spotify, and other streaming platforms. Music & Social Apple Music · Spotify · Instagram Band Members Gabe Sheffer Rhythm Guitar/Vocals/Songwriter Josh Cohen Lead Guitar/Backing Vocals Neel Blair Piano/Keys/Organ Paul Berkelhamer Sax/Keys Andrew Zimmerman Slide Guitar Fritz Marial Bass Guitar (Recording) Ed Tremblay Bass Guitar (Live Shows) Brian Compton Drums/Percussion",
     "links": [
       "/slowmovingbird",
       "/slowmovingbird/shows",
@@ -223,7 +248,9 @@
       "/slowmovingbird/photos",
       "/slowmovingbird/songs",
       "/slowmovingbird/contact",
-      "/slowmovingbird/shows"
+      "https://music.apple.com/us/album/once-in-a-daydream/1542117499",
+      "https://open.spotify.com/artist/1kcw9lACARZIdln9Dx2YDz",
+      "https://www.instagram.com/slowmovingbirdband/"
     ],
     "images": [
       {
@@ -236,7 +263,7 @@
   },
   "/slowmovingbird/shows": {
     "title": "Slow Moving Bird Shows",
-    "text": "Home · Shows · Videos · Photos · Songs · Contact Shows Slow Moving Bird at Slim’s Last Chance Date and time Wednesday, October 28, 2026 · 9 PM Venue Slim’s Last Chance 5606 1st Ave S, Seattle, WA Ages 21 and over",
+    "text": "Home · Shows · Videos · Photos · Songs · Contact Shows Upcoming Shows No upcoming shows are currently scheduled. Check back soon for new dates. Past Shows Slow Moving Bird at Slim’s Last Chance Date and time Wednesday, October 28, 2026 · 9 PM Venue Slim’s Last Chance 5606 1st Ave S, Seattle, WA Details Ages 21 and over Slow Moving Bird at Orient Express Lounge Date and time Friday, July 10, 2026 · 10 PM Venue Orient Express Lounge 2963 4th Ave S, Seattle, WA 98134 Slow Moving Bird at SeaMonster Lounge Date and time Wednesday, May 6, 2026 · Doors 7 PM · Show 7:30 PM Venue SeaMonster Lounge 2202 N 45th St, Seattle, WA",
     "links": [
       "/slowmovingbird",
       "/slowmovingbird/shows",
@@ -252,7 +279,15 @@
       },
       {
         "src": "/_next/image?url=%2Fslowmovingbird%2Fslow-moving-bird-slims-october-28-2026.png%3Fv%3D2&w=3840&q=75",
-        "alt": "Slow Moving Bird concert poster with special guests Eric David Wallace and Corduroy Fox, featuring a bird skull in cream and red on a distressed black background. Event details follow below."
+        "alt": "Slow Moving Bird concert poster featuring a bird skull in cream and red on a distressed black background."
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fslow-moving-bird-orient-express-july-10-2026.png&w=3840&q=75",
+        "alt": "Art deco Slow Moving Bird concert poster with a heron, a passenger train, and an illustration of the band."
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fslow-moving-bird-seamonster-may-6-2026.png&w=3840&q=75",
+        "alt": "Slow Moving Bird concert poster featuring two herons flying above the Seattle skyline and Mount Rainier."
       }
     ],
     "embeds": [],
@@ -376,8 +411,8 @@
     "media": []
   },
   "/slowmovingbird/contact": {
-    "title": "Slow Moving Bird Contact",
-    "text": "Home · Shows · Videos · Photos · Songs · Contact Contact gabe@slowmovingbird.com",
+    "title": "Slow Moving Bird Booking & Contact",
+    "text": "Home · Shows · Videos · Photos · Songs · Contact Booking & Contact Slow Moving Bird is a Seattle band playing original melodic rock songs with roots in Springsteen, Wilco, and Pearl Jam. The band released Once, In a Daydream... in 2020 and is finishing a new set of songs recorded at Seattle's venerable London Bridge Studio. You can find Slow Moving Bird's music on Apple Music, Spotify, and other streaming platforms. Promotional Video View more live performance photos and videos Gabe Sheffer singing live at Slim’s Last Chance Saloon in Seattle · October 28, 2026 Book Slow Moving Bird Available for 60-minute sets throughout the greater Seattle metro area. Venue shows, opening slots, co-bills, festivals, and select private events are welcome. For booking and promoter inquiries, contact: Gabe Sheffer gabe.sheffer@gmail.com Ed Tremblay edtrem@outlook.com Please include the venue, city, proposed date, set requirements, and any production details. Promotional Materials Download band photo Download band logo Music & Social Apple Music · Spotify · Instagram",
     "links": [
       "/slowmovingbird",
       "/slowmovingbird/shows",
@@ -385,15 +420,32 @@
       "/slowmovingbird/photos",
       "/slowmovingbird/songs",
       "/slowmovingbird/contact",
-      "mailto:gabe@slowmovingbird.com"
+      "https://photos.google.com/share/AF1QipMUSCyjDpcWiJkC3JAnZU0vhKIx4Rv9i8WGP30iP1vWO5eX3kAVl-odGpIjBjKiAA?key=MndvWEFGTm04SEVjQzNOZncwYVJzc3p3U0E1c0Z3",
+      "mailto:gabe.sheffer@gmail.com",
+      "mailto:edtrem@outlook.com",
+      "/slowmovingbird/slow-moving-bird-promo-photo.png",
+      "/slowmovingbird/slow-moving-bird-promo-logo.png",
+      "https://music.apple.com/us/album/once-in-a-daydream/1542117499",
+      "https://open.spotify.com/artist/1kcw9lACARZIdln9Dx2YDz",
+      "https://www.instagram.com/slowmovingbirdband/"
     ],
     "images": [
       {
         "src": "/_next/image?url=%2Fslowmovingbird%2Fsmb-logo-full.jpg&w=3840&q=75",
         "alt": "Slow Moving Bird"
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fslow-moving-bird-promo-photo.png&w=3840&q=75",
+        "alt": "Five members of Slow Moving Bird together after a live performance."
+      },
+      {
+        "src": "/_next/image?url=%2Fslowmovingbird%2Fslow-moving-bird-live-vocalist.png&w=3840&q=75",
+        "alt": "Gabe Sheffer singing with Slow Moving Bird at Slim’s Last Chance Saloon in Seattle."
       }
     ],
-    "embeds": [],
+    "embeds": [
+      "https://www.youtube-nocookie.com/embed/0-PSzwepads"
+    ],
     "media": []
   }
 }

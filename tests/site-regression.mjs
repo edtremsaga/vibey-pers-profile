@@ -61,7 +61,12 @@ for (const path of paths) {
     const a = decode(m[1]); if (a.startsWith('/_next/static/')) assets.add(a);
   }
   for (const a of s.links) if (a.startsWith('/') && !a.startsWith('//')) links.add(a.split('#')[0]);
-  for (const a of s.embeds) assert.equal(new URL(a).hostname, 'www.youtube.com', `${path}: unexpected embed host`);
+  for (const a of s.embeds) {
+    assert.ok(
+      ['www.youtube.com', 'www.youtube-nocookie.com'].includes(new URL(a).hostname),
+      `${path}: unexpected embed host`,
+    );
+  }
   pages++;
 }
 for (const a of assets) {
@@ -86,6 +91,21 @@ for (const host of ['drvr8.band', 'slowmovingbird.band', 'vibeycraft.com', 'www.
       ? '/slowmovingbird'
       : '/';
   assert.deepEqual(actual, snapshots[expectedPath], `Host routing ${host}`);
+}
+for (const path of ['shows', 'videos', 'photos', 'songs', 'contact']) {
+  const clean = await get(`/${path}`, { headers: { Host: 'slowmovingbird.band' } });
+  assert.equal(clean.status, 200, `Clean Slow Moving Bird route /${path}`);
+  assert.deepEqual(
+    snapshot(await clean.text()),
+    snapshots[`/slowmovingbird/${path}`],
+    `Clean Slow Moving Bird route /${path}`,
+  );
+
+  const legacy = await get(`/slowmovingbird/${path}`, {
+    headers: { Host: 'slowmovingbird.band' },
+  });
+  assert.equal(legacy.status, 308, `Legacy Slow Moving Bird route /${path}`);
+  assert.equal(legacy.headers.get('location'), `/${path}`);
 }
 // Exercise a small cold derivative and reject unsupported image inputs.
 for (const [path, status] of [
