@@ -61,6 +61,14 @@ export default function SlowMovingBirdContactPage() {
           >
             View more live performance photos and videos
           </a>
+          <Image
+            src="/slowmovingbird/slow-moving-bird-live-vocalist.png"
+            alt="Slow Moving Bird vocalist performing live onstage."
+            width={538}
+            height={738}
+            sizes="(max-width: 348px) calc(100vw - 48px), 300px"
+            className="mx-auto mt-8 h-auto w-full max-w-[300px]"
+          />
         </section>
 
         <section
